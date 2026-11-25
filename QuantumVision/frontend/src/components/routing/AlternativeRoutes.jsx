@@ -1,0 +1,1 @@
+export default function AlternativeRoutes() { return <div>Alternatives</div>; }

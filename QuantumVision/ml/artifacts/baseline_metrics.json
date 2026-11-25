@@ -1,0 +1,95 @@
+{
+  "task": "Flood Risk Prediction Baseline (Binary Classification)",
+  "study_area": "Srikakulam District, Andhra Pradesh, India",
+  "dataset_version": "v1.0-1500-samples-baseline",
+  "total_samples": 1500,
+  "test_sample_count": 300,
+  "train_sample_count": 1200,
+  "models": {
+    "random_forest": {
+      "model": "Random Forest",
+      "type": "Classical ML",
+      "accuracy": 0.9967,
+      "precision": 1.0,
+      "recall": 0.9737,
+      "f1_score": 0.9867,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [262, 0],
+        [1, 37]
+      ],
+      "support": {
+        "non_flood": 262,
+        "flood": 38,
+        "total": 300
+      },
+      "status": "VALIDATED"
+    },
+    "xgboost": {
+      "model": "XGBoost",
+      "type": "Classical ML",
+      "accuracy": 0.9967,
+      "precision": 1.0,
+      "recall": 0.9737,
+      "f1_score": 0.9867,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [262, 0],
+        [1, 37]
+      ],
+      "support": {
+        "non_flood": 262,
+        "flood": 38,
+        "total": 300
+      },
+      "status": "VALIDATED"
+    },
+    "vqc_quantum": {
+      "model": "Variational Quantum Classifier (VQC)",
+      "type": "Quantum Machine Learning (Simulator)",
+      "simulator": "PennyLane default.qubit (Statevector)",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 24,
+      "accuracy": 0.9167,
+      "precision": 0.6275,
+      "recall": 0.8421,
+      "f1_score": 0.7191,
+      "roc_auc": 0.9759,
+      "confusion_matrix": [
+        [243, 19],
+        [6, 32]
+      ],
+      "support": {
+        "non_flood": 262,
+        "flood": 38,
+        "total": 300
+      },
+      "status": "SIMULATION"
+    },
+    "qnn_quantum": {
+      "model": "Quantum Neural Network (QNN)",
+      "type": "Quantum Machine Learning (Simulator)",
+      "simulator": "PennyLane default.qubit (Statevector)",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 16,
+      "accuracy": 0.5633,
+      "precision": 0.1921,
+      "recall": 0.7632,
+      "f1_score": 0.3069,
+      "roc_auc": 0.6107,
+      "confusion_matrix": [
+        [140, 122],
+        [9, 29]
+      ],
+      "support": {
+        "non_flood": 262,
+        "flood": 38,
+        "total": 300
+      },
+      "status": "SIMULATION"
+    }
+  }
+}
+

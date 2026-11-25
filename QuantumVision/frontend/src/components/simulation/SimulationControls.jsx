@@ -1,0 +1,1 @@
+export default function SimulationControls() { return <div>Controls</div>; }

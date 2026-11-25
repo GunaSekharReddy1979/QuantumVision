@@ -1,0 +1,1 @@
+export default function EmergencyAlerts() { return <div>Alerts</div>; }

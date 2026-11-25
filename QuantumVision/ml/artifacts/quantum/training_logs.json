@@ -1,0 +1,412 @@
+{
+  "timestamp_utc": "2026-11-05T15:10:26.493598+00:00",
+  "dataset": "flood_training_samples.csv (5,000 samples)",
+  "train_samples": 4018,
+  "test_samples": 982,
+  "models": {
+    "random_forest": {
+      "best_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 8,
+        "min_samples_split": 4,
+        "class_weight": "balanced"
+      },
+      "validation_score": 0.9977750000000001,
+      "test_metrics": {
+        "model": "Random Forest",
+        "type": "Classical ML",
+        "accuracy": 0.998,
+        "flood_precision": 1.0,
+        "flood_recall": 0.9877,
+        "flood_f1": 0.9938,
+        "non_flood_precision": 0.9976,
+        "non_flood_recall": 1.0,
+        "non_flood_f1": 0.9988,
+        "macro_precision": 0.9988,
+        "macro_recall": 0.9938,
+        "macro_f1": 0.9963,
+        "precision": 1.0,
+        "recall": 0.9877,
+        "f1_score": 0.9938,
+        "confusion_matrix": [
+          [
+            820,
+            0
+          ],
+          [
+            2,
+            160
+          ]
+        ],
+        "support": {
+          "non_flood": 820,
+          "flood": 162,
+          "total": 982
+        },
+        "test_sample_count": 982,
+        "roc_auc": 0.9998,
+        "selected_hyperparameters": {
+          "n_estimators": 100,
+          "max_depth": 8,
+          "min_samples_split": 4,
+          "class_weight": "balanced"
+        },
+        "validation_flood_f1": 0.9978,
+        "status": "VALIDATED"
+      }
+    },
+    "xgboost": {
+      "best_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.08,
+        "scale_pos_weight": 4.94,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "validation_score": 0.9941,
+      "test_metrics": {
+        "model": "XGBoost",
+        "type": "Classical ML",
+        "accuracy": 0.998,
+        "flood_precision": 1.0,
+        "flood_recall": 0.9877,
+        "flood_f1": 0.9938,
+        "non_flood_precision": 0.9976,
+        "non_flood_recall": 1.0,
+        "non_flood_f1": 0.9988,
+        "macro_precision": 0.9988,
+        "macro_recall": 0.9938,
+        "macro_f1": 0.9963,
+        "precision": 1.0,
+        "recall": 0.9877,
+        "f1_score": 0.9938,
+        "confusion_matrix": [
+          [
+            820,
+            0
+          ],
+          [
+            2,
+            160
+          ]
+        ],
+        "support": {
+          "non_flood": 820,
+          "flood": 162,
+          "total": 982
+        },
+        "test_sample_count": 982,
+        "roc_auc": 0.9999,
+        "selected_hyperparameters": {
+          "n_estimators": 100,
+          "max_depth": 5,
+          "learning_rate": 0.08,
+          "scale_pos_weight": 4.94,
+          "subsample": 0.85,
+          "colsample_bytree": 0.85
+        },
+        "validation_flood_f1": 0.9941,
+        "status": "VALIDATED"
+      }
+    },
+    "vqc_quantum": {
+      "num_qubits": 4,
+      "circuit_layers": 2,
+      "trainable_params": 24,
+      "optimizer": "Adam (stepsize=0.10)",
+      "epochs": 25,
+      "loss_history": [
+        {
+          "step": 1,
+          "quantum_loss": 1.3063
+        },
+        {
+          "step": 2,
+          "quantum_loss": 1.2002
+        },
+        {
+          "step": 3,
+          "quantum_loss": 1.118
+        },
+        {
+          "step": 4,
+          "quantum_loss": 1.064
+        },
+        {
+          "step": 5,
+          "quantum_loss": 1.0209
+        },
+        {
+          "step": 6,
+          "quantum_loss": 0.9729
+        },
+        {
+          "step": 7,
+          "quantum_loss": 0.9126
+        },
+        {
+          "step": 8,
+          "quantum_loss": 0.8429
+        },
+        {
+          "step": 9,
+          "quantum_loss": 0.7757
+        },
+        {
+          "step": 10,
+          "quantum_loss": 0.7215
+        },
+        {
+          "step": 11,
+          "quantum_loss": 0.6829
+        },
+        {
+          "step": 12,
+          "quantum_loss": 0.6548
+        },
+        {
+          "step": 13,
+          "quantum_loss": 0.6315
+        },
+        {
+          "step": 14,
+          "quantum_loss": 0.6099
+        },
+        {
+          "step": 15,
+          "quantum_loss": 0.5901
+        },
+        {
+          "step": 16,
+          "quantum_loss": 0.5725
+        },
+        {
+          "step": 17,
+          "quantum_loss": 0.5551
+        },
+        {
+          "step": 18,
+          "quantum_loss": 0.5345
+        },
+        {
+          "step": 19,
+          "quantum_loss": 0.5091
+        },
+        {
+          "step": 20,
+          "quantum_loss": 0.4799
+        },
+        {
+          "step": 21,
+          "quantum_loss": 0.4497
+        },
+        {
+          "step": 22,
+          "quantum_loss": 0.4218
+        },
+        {
+          "step": 23,
+          "quantum_loss": 0.3989
+        },
+        {
+          "step": 24,
+          "quantum_loss": 0.3819
+        },
+        {
+          "step": 25,
+          "quantum_loss": 0.3691
+        }
+      ],
+      "test_metrics": {
+        "model": "Variational Quantum Classifier (VQC)",
+        "type": "Quantum Simulator",
+        "accuracy": 0.8961,
+        "flood_precision": 0.623,
+        "flood_recall": 0.9383,
+        "flood_f1": 0.7488,
+        "non_flood_precision": 0.9864,
+        "non_flood_recall": 0.8878,
+        "non_flood_f1": 0.9345,
+        "macro_precision": 0.8047,
+        "macro_recall": 0.913,
+        "macro_f1": 0.8416,
+        "precision": 0.623,
+        "recall": 0.9383,
+        "f1_score": 0.7488,
+        "confusion_matrix": [
+          [
+            728,
+            92
+          ],
+          [
+            10,
+            152
+          ]
+        ],
+        "support": {
+          "non_flood": 820,
+          "flood": 162,
+          "total": 982
+        },
+        "test_sample_count": 982,
+        "roc_auc": 0.9729,
+        "simulator": "PennyLane default.qubit",
+        "num_qubits": 4,
+        "circuit_depth": 2,
+        "parameters_count": 24,
+        "status": "SIMULATION",
+        "disclaimer": "Simulated quantum circuit evaluated on identical full test split. No physical quantum supremacy is claimed over classical models."
+      }
+    },
+    "qnn_quantum": {
+      "num_qubits": 4,
+      "circuit_layers": 2,
+      "trainable_params": 16,
+      "optimizer": "Adam (stepsize=0.08)",
+      "epochs": 25,
+      "loss_history": [
+        {
+          "step": 1,
+          "quantum_loss": 0.335
+        },
+        {
+          "step": 2,
+          "quantum_loss": 0.3295
+        },
+        {
+          "step": 3,
+          "quantum_loss": 0.322
+        },
+        {
+          "step": 4,
+          "quantum_loss": 0.3127
+        },
+        {
+          "step": 5,
+          "quantum_loss": 0.3015
+        },
+        {
+          "step": 6,
+          "quantum_loss": 0.2885
+        },
+        {
+          "step": 7,
+          "quantum_loss": 0.2738
+        },
+        {
+          "step": 8,
+          "quantum_loss": 0.258
+        },
+        {
+          "step": 9,
+          "quantum_loss": 0.2417
+        },
+        {
+          "step": 10,
+          "quantum_loss": 0.2262
+        },
+        {
+          "step": 11,
+          "quantum_loss": 0.213
+        },
+        {
+          "step": 12,
+          "quantum_loss": 0.2032
+        },
+        {
+          "step": 13,
+          "quantum_loss": 0.1968
+        },
+        {
+          "step": 14,
+          "quantum_loss": 0.1926
+        },
+        {
+          "step": 15,
+          "quantum_loss": 0.1892
+        },
+        {
+          "step": 16,
+          "quantum_loss": 0.1854
+        },
+        {
+          "step": 17,
+          "quantum_loss": 0.1807
+        },
+        {
+          "step": 18,
+          "quantum_loss": 0.1752
+        },
+        {
+          "step": 19,
+          "quantum_loss": 0.1693
+        },
+        {
+          "step": 20,
+          "quantum_loss": 0.1636
+        },
+        {
+          "step": 21,
+          "quantum_loss": 0.1585
+        },
+        {
+          "step": 22,
+          "quantum_loss": 0.1545
+        },
+        {
+          "step": 23,
+          "quantum_loss": 0.1518
+        },
+        {
+          "step": 24,
+          "quantum_loss": 0.1503
+        },
+        {
+          "step": 25,
+          "quantum_loss": 0.1499
+        }
+      ],
+      "test_metrics": {
+        "model": "Quantum Neural Network (QNN)",
+        "type": "Quantum Simulator",
+        "accuracy": 0.9012,
+        "flood_precision": 0.6484,
+        "flood_recall": 0.8765,
+        "flood_f1": 0.7454,
+        "non_flood_precision": 0.9738,
+        "non_flood_recall": 0.9061,
+        "non_flood_f1": 0.9387,
+        "macro_precision": 0.8111,
+        "macro_recall": 0.8913,
+        "macro_f1": 0.8421,
+        "precision": 0.6484,
+        "recall": 0.8765,
+        "f1_score": 0.7454,
+        "confusion_matrix": [
+          [
+            743,
+            77
+          ],
+          [
+            20,
+            142
+          ]
+        ],
+        "support": {
+          "non_flood": 820,
+          "flood": 162,
+          "total": 982
+        },
+        "test_sample_count": 982,
+        "roc_auc": 0.955,
+        "simulator": "PennyLane default.qubit",
+        "num_qubits": 4,
+        "circuit_depth": 2,
+        "parameters_count": 16,
+        "status": "SIMULATION",
+        "disclaimer": "Simulated quantum neural network layer evaluated on identical full test split."
+      }
+    }
+  }
+}

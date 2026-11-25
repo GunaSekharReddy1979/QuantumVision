@@ -1,0 +1,1 @@
+export default function RiskSummary() { return <div>Risk Summary</div>; }

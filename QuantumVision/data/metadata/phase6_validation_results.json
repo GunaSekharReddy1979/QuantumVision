@@ -1,0 +1,455 @@
+{
+  "geographic_validation": {
+    "boundary_crs": "EPSG:4326",
+    "boundary_bounds": {
+      "lon_min": 83.41419181461752,
+      "lat_min": 18.082655534758498,
+      "lon_max": 84.76858190526677,
+      "lat_max": 19.165631921784716
+    },
+    "boundary_area_sqkm": 6332.2998790894435,
+    "rivers_crs": "EPSG:4326",
+    "rivers_count": 613,
+    "river_names": [
+      "Srikakulam Waterway",
+      "Gotta Barrage Right Main Canal",
+      "Gotta Barrage",
+      "Srikakulam River Channel",
+      "Nagavali River",
+      "Vegavati River",
+      "Vamsadhara River",
+      "Gotta Barrage Left Main Canal",
+      "Bahuda River",
+      "Madala River"
+    ],
+    "rivers_bounds": {
+      "lon_min": 83.4734893888724,
+      "lat_min": 18.083755923109386,
+      "lon_max": 84.7531954,
+      "lat_max": 19.13042272146254
+    },
+    "flood_crs": "EPSG:4326",
+    "flood_polygons_count": 250,
+    "flood_bounds": {
+      "lon_min": 83.52656868046246,
+      "lat_min": 18.18855066668008,
+      "lon_max": 84.76355023037245,
+      "lat_max": 19.12280927799204
+    },
+    "flood_inundation_area_sqkm": 1635.6304875699418,
+    "facilities_crs": "EPSG:4326",
+    "facilities_count": 159,
+    "facility_types": {},
+    "containment": {
+      "rivers_within_district_pct": 93.3115823817292,
+      "flood_within_district_pct": 78.0,
+      "facilities_within_district_pct": 100.0
+    }
+  },
+  "model_validation": {
+    "random_forest": {
+      "model": "Random Forest",
+      "type": "Classical ML",
+      "accuracy": 0.998,
+      "flood_precision": 1.0,
+      "flood_recall": 0.9877,
+      "flood_f1": 0.9938,
+      "non_flood_precision": 0.9976,
+      "non_flood_recall": 1.0,
+      "non_flood_f1": 0.9988,
+      "macro_precision": 0.9988,
+      "macro_recall": 0.9938,
+      "macro_f1": 0.9963,
+      "precision": 1.0,
+      "recall": 0.9877,
+      "f1_score": 0.9938,
+      "confusion_matrix": [
+        [
+          820,
+          0
+        ],
+        [
+          2,
+          160
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9998,
+      "selected_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 8,
+        "min_samples_split": 4,
+        "class_weight": "balanced"
+      },
+      "validation_flood_f1": 0.9978,
+      "status": "VALIDATED",
+      "training_time_s": 2.6,
+      "inference_latency_ms": 0.007,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "xgboost": {
+      "model": "XGBoost",
+      "type": "Classical ML",
+      "accuracy": 0.998,
+      "flood_precision": 1.0,
+      "flood_recall": 0.9877,
+      "flood_f1": 0.9938,
+      "non_flood_precision": 0.9976,
+      "non_flood_recall": 1.0,
+      "non_flood_f1": 0.9988,
+      "macro_precision": 0.9988,
+      "macro_recall": 0.9938,
+      "macro_f1": 0.9963,
+      "precision": 1.0,
+      "recall": 0.9877,
+      "f1_score": 0.9938,
+      "confusion_matrix": [
+        [
+          820,
+          0
+        ],
+        [
+          2,
+          160
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9999,
+      "selected_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.08,
+        "scale_pos_weight": 4.94,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "validation_flood_f1": 0.9941,
+      "status": "VALIDATED",
+      "training_time_s": 1.9,
+      "inference_latency_ms": 0.005,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "vqc_quantum": {
+      "model": "Variational Quantum Classifier (VQC)",
+      "type": "Quantum Simulator",
+      "accuracy": 0.8961,
+      "flood_precision": 0.623,
+      "flood_recall": 0.9383,
+      "flood_f1": 0.7488,
+      "non_flood_precision": 0.9864,
+      "non_flood_recall": 0.8878,
+      "non_flood_f1": 0.9345,
+      "macro_precision": 0.8047,
+      "macro_recall": 0.913,
+      "macro_f1": 0.8416,
+      "precision": 0.623,
+      "recall": 0.9383,
+      "f1_score": 0.7488,
+      "confusion_matrix": [
+        [
+          728,
+          92
+        ],
+        [
+          10,
+          152
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9729,
+      "simulator": "PennyLane default.qubit",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 24,
+      "status": "SIMULATION",
+      "disclaimer": "Simulated quantum circuit evaluated on identical full test split. No physical quantum supremacy is claimed over classical models.",
+      "training_time_s": 32.5,
+      "inference_latency_ms": 1.42,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "qnn_quantum": {
+      "model": "Quantum Neural Network (QNN)",
+      "type": "Quantum Simulator",
+      "accuracy": 0.9012,
+      "flood_precision": 0.6484,
+      "flood_recall": 0.8765,
+      "flood_f1": 0.7454,
+      "non_flood_precision": 0.9738,
+      "non_flood_recall": 0.9061,
+      "non_flood_f1": 0.9387,
+      "macro_precision": 0.8111,
+      "macro_recall": 0.8913,
+      "macro_f1": 0.8421,
+      "precision": 0.6484,
+      "recall": 0.8765,
+      "f1_score": 0.7454,
+      "confusion_matrix": [
+        [
+          743,
+          77
+        ],
+        [
+          20,
+          142
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.955,
+      "simulator": "PennyLane default.qubit",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 16,
+      "status": "SIMULATION",
+      "disclaimer": "Simulated quantum neural network layer evaluated on identical full test split.",
+      "training_time_s": 29.8,
+      "inference_latency_ms": 1.38,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    }
+  },
+  "spatial_error_analysis": {
+    "total_test_samples": 982,
+    "rf_total_errors": 2,
+    "rf_fn_count": 2,
+    "rf_fp_count": 0,
+    "rf_fn_samples": [
+      {
+        "latitude": 18.17369,
+        "longitude": 83.69431,
+        "elevation_m": 11.5,
+        "slope_deg": 8.7,
+        "distance_to_waterway_km": 2.64,
+        "sar_vv_db": -46.61,
+        "sar_temporal_diff_db": -8.32
+      },
+      {
+        "latitude": 18.30896,
+        "longitude": 83.83476,
+        "elevation_m": 15.1,
+        "slope_deg": 3.5,
+        "distance_to_waterway_km": 4.63,
+        "sar_vv_db": -45.16,
+        "sar_temporal_diff_db": -3.14
+      }
+    ],
+    "vqc_fn_count": 10,
+    "vqc_fp_count": 92,
+    "qnn_fn_count": 20,
+    "qnn_fp_count": 77
+  },
+  "sar_and_risk_map_validation": {
+    "source_sensor": "Sentinel-1A C-SAR Level-1 GRDH",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "pre_event_acquisition": "2025-09-22T00:34:12Z",
+    "post_event_acquisition": "2025-10-04T00:34:12Z",
+    "backscatter_threshold_db": -2.5,
+    "permanent_water_mask": "JRC Global Surface Water (GSW) permanent water transition occurrence >= 80%",
+    "flood_polygons_count": 250,
+    "total_inundated_area_km2": 1635.6304875699418,
+    "study_area_coverage_pct": 25.82995939549752,
+    "elevation_consistency": {
+      "mean_elev_flood_m": 8.989868891537546,
+      "mean_elev_nonflood_m": 51.92429704397981,
+      "mean_dist_waterway_flood_km": 0.47057210965435037,
+      "mean_dist_waterway_nonflood_km": 3.1870968517183367
+    }
+  },
+  "rainfall_forecast_validation": {
+    "stations_count": 8,
+    "total_hourly_records": 350592,
+    "forecast_horizon_hours": 24,
+    "chronological_test_samples": 70080,
+    "station_coverage": {
+      "srk_town": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 27.7,
+        "mean_rain_mm": 0.17900237312887915
+      },
+      "srk_kalingapatnam": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 42.1,
+        "mean_rain_mm": 0.17937203358890105
+      },
+      "srk_narasannapeta": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 54.6,
+        "mean_rain_mm": 0.1969925155166119
+      },
+      "srk_palakonda": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 48.4,
+        "mean_rain_mm": 0.2079203176341731
+      },
+      "srk_palasa": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 28.9,
+        "mean_rain_mm": 0.19525602409638554
+      },
+      "srk_sompeta": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 25.5,
+        "mean_rain_mm": 0.1615279299014239
+      },
+      "srk_tekkali": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 28.9,
+        "mean_rain_mm": 0.19021997079225997
+      },
+      "srk_ichchapuram": {
+        "records": 43824,
+        "start": "2021-01-01 00:00:00",
+        "end": "2025-12-31 23:00:00",
+        "max_rain_mm": 29.4,
+        "mean_rain_mm": 0.17116648411829136
+      }
+    },
+    "models": {
+      "baseline_persistence": {
+        "model_name": "Persistence Baseline (Previous 24h)",
+        "mae_mm": 4.803,
+        "rmse_mm": 10.806,
+        "r2_score": -0.1486,
+        "heavy_rain_mae_mm": 22.796
+      },
+      "random_forest": {
+        "model_name": "Random Forest Regressor",
+        "mae_mm": 4.192,
+        "rmse_mm": 8.71,
+        "r2_score": 0.2537,
+        "heavy_rain_mae_mm": 22.769
+      },
+      "xgboost": {
+        "model_name": "XGBoost Regressor",
+        "mae_mm": 4.115,
+        "rmse_mm": 8.552,
+        "r2_score": 0.2806,
+        "heavy_rain_mae_mm": 22.791
+      },
+      "quantum_regression": {
+        "model_name": "Quantum VQC Regressor",
+        "status": "EXPERIMENTAL / NOT_IMPLEMENTED",
+        "mae_mm": "N/A",
+        "rmse_mm": "N/A",
+        "r2_score": "N/A",
+        "note": "Quantum VQC in the repository is a 4-qubit binary classification circuit for spatial flood-risk demarcation. Continuous quantum rainfall forecasting is not implemented in this version. No artificial metrics are fabricated."
+      }
+    },
+    "best_model": "xgboost"
+  },
+  "evacuation_routing_validation": {
+    "total_nodes": 171080,
+    "total_edges": 172144,
+    "connected_corridor_nodes": 169784,
+    "astar_latency_ms": 1674.5961000560783,
+    "dijkstra_latency_ms": 789.042700023856,
+    "distance_astar_km": 34.58,
+    "distance_dijkstra_km": 34.58,
+    "flood_avoidance_verified": true,
+    "shelters_tested_reachable": true,
+    "shelter_reachability": [
+      {
+        "facility_name": "RIMS Government General Hospital Srikakulam",
+        "lat": 18.298,
+        "lon": 83.895,
+        "reachable": true,
+        "distance_km": 0.86,
+        "eta_mins": 1.4,
+        "alternatives_count": 1
+      },
+      {
+        "facility_name": "District Cyclone Relief Shelter Narasannapeta",
+        "lat": 18.418,
+        "lon": 84.048,
+        "reachable": true,
+        "distance_km": 77.54,
+        "eta_mins": 117.0,
+        "alternatives_count": 1
+      },
+      {
+        "facility_name": "Tekkali Area Hospital",
+        "lat": 18.614,
+        "lon": 84.234,
+        "reachable": true,
+        "distance_km": 92.69,
+        "eta_mins": 139.6,
+        "alternatives_count": 1
+      },
+      {
+        "facility_name": "Palasa Community Health Centre",
+        "lat": 18.769,
+        "lon": 84.417,
+        "reachable": true,
+        "distance_km": 119.67,
+        "eta_mins": 177.4,
+        "alternatives_count": 1
+      },
+      {
+        "facility_name": "Ichchapuram Relief Center",
+        "lat": 19.112,
+        "lon": 84.692,
+        "reachable": true,
+        "distance_km": 168.99,
+        "eta_mins": 239.0,
+        "alternatives_count": 1
+      }
+    ]
+  },
+  "determinism_audit": {
+    "iterations": 10,
+    "rf_max_variance": 4.930380657631324e-32,
+    "xgb_max_variance": 1.4210854715202004e-14,
+    "deterministic": false
+  }
+}

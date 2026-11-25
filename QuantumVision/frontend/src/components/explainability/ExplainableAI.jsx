@@ -1,0 +1,1 @@
+export default function ExplainableAI() { return <div>XAI</div>; }

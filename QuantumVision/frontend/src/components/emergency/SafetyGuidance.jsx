@@ -1,0 +1,1 @@
+export default function SafetyGuidance() { return <div>Safety Guidance</div>; }

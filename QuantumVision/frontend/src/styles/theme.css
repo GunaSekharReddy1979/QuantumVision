@@ -1,0 +1,14 @@
+/* Cyberpunk Glassmorphism Color Palette & Typography Tokens */
+:root {
+  --color-cyber-black: #05080e;
+  --color-cyber-card: rgba(10, 18, 30, 0.75);
+  --color-neon-cyan: #00f0ff;
+  --color-neon-amber: #ffaa00;
+  --color-neon-red: #ff003c;
+  --color-neon-emerald: #00ff66;
+  --color-neon-purple: #a855f7;
+  
+  --glass-border: 1px solid rgba(0, 240, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  --glass-blur: blur(12px);
+}

@@ -1,0 +1,20 @@
+{
+  "total_records": 16198,
+  "source": "Andhra Pradesh State Water Resources Department (SW_AP)",
+  "regional_coverage": "North Coastal Andhra Pradesh (Adjacent Vizianagaram & Visakhapatnam Telemetry)",
+  "srikakulam_attribution": "REGIONAL_INTERPOLATED (Adjacent Basin Telemetry)",
+  "mean_hourly_rainfall_mm": 99.81,
+  "max_hourly_rainfall_mm": 499.5,
+  "p95_hourly_rainfall_mm": 350.0,
+  "stations_monitored": [
+    "Andra Reservoir",
+    "Sri Tenneti Viswanatham Pedderu Reservoir",
+    "Tadipudi Reservoir",
+    "Tandava Reservoir",
+    "Thotapalli Barrage"
+  ],
+  "date_range": {
+    "start": "01-01-2024 00:00",
+    "end": "31-12-2023 23:00"
+  }
+}

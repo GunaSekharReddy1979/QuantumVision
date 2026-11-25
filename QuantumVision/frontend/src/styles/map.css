@@ -1,0 +1,26 @@
+/* Cesium GIS Map Containers and Floating HUD Overlays */
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #04060a;
+}
+
+.map-hud-overlay {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.map-controls-panel {
+  position: absolute;
+  bottom: 24px;
+  right: 16px;
+  z-index: 30;
+}

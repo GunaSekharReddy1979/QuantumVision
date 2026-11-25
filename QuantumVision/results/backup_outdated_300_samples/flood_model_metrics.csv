@@ -1,0 +1,5 @@
+Model Name,Model Type,Accuracy,Precision,Recall,F1-Score,ROC-AUC,True Negatives,False Positives,False Negatives,True Positives,Test Samples
+Random Forest,Classical ML,0.9967,1.0,0.9737,0.9867,1.0,262,0,1,37,300
+XGBoost,Classical ML,0.9967,1.0,0.9737,0.9867,1.0,262,0,1,37,300
+PennyLane VQC (4 Qubits),Quantum ML (Statevector),0.9167,0.6275,0.8421,0.7191,0.9759,243,19,6,32,300
+PennyLane QNN (4 Qubits),Quantum ML (Statevector),0.5633,0.1921,0.7632,0.3069,0.6107,140,122,9,29,300

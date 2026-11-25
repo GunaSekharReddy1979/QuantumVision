@@ -1,0 +1,118 @@
+{
+  "_cached_at": 1793545106.0416653,
+  "forecast": {
+    "point_id": "srk_sompeta",
+    "name": "Sompeta",
+    "latitude": 18.93,
+    "longitude": 84.58,
+    "elevation_m": 12.0,
+    "zone": "Northern Coastal Plain",
+    "river_basin": "Wetland / Swamp Corridor",
+    "retrieved_at": "2026-11-01T14:58:26.041665+00:00",
+    "accumulated_precipitation_24h_mm": 9.7,
+    "max_hourly_intensity_mm": 2.6,
+    "avg_temperature_c": 24.9,
+    "avg_relative_humidity_pct": 91.8,
+    "avg_wind_speed_kmh": 4.5,
+    "rainfall_classification": "Light Rain",
+    "series_count": 12,
+    "series": [
+      {
+        "time": "2026-11-01T20:00",
+        "hour_offset": 1,
+        "precipitation_mm": 0.0,
+        "temperature_c": 26.0,
+        "relative_humidity_pct": 88.0,
+        "wind_speed_kmh": 4.7
+      },
+      {
+        "time": "2026-11-01T21:00",
+        "hour_offset": 2,
+        "precipitation_mm": 0.0,
+        "temperature_c": 25.7,
+        "relative_humidity_pct": 87.0,
+        "wind_speed_kmh": 5.2
+      },
+      {
+        "time": "2026-11-01T22:00",
+        "hour_offset": 3,
+        "precipitation_mm": 0.0,
+        "temperature_c": 25.4,
+        "relative_humidity_pct": 86.0,
+        "wind_speed_kmh": 5.1
+      },
+      {
+        "time": "2026-11-01T23:00",
+        "hour_offset": 4,
+        "precipitation_mm": 0.0,
+        "temperature_c": 25.1,
+        "relative_humidity_pct": 86.0,
+        "wind_speed_kmh": 6.7
+      },
+      {
+        "time": "2026-11-02T00:00",
+        "hour_offset": 5,
+        "precipitation_mm": 0.5,
+        "temperature_c": 24.9,
+        "relative_humidity_pct": 89.0,
+        "wind_speed_kmh": 6.1
+      },
+      {
+        "time": "2026-11-02T01:00",
+        "hour_offset": 6,
+        "precipitation_mm": 1.1,
+        "temperature_c": 24.8,
+        "relative_humidity_pct": 92.0,
+        "wind_speed_kmh": 1.2
+      },
+      {
+        "time": "2026-11-02T02:00",
+        "hour_offset": 7,
+        "precipitation_mm": 0.5,
+        "temperature_c": 24.6,
+        "relative_humidity_pct": 96.0,
+        "wind_speed_kmh": 5.7
+      },
+      {
+        "time": "2026-11-02T03:00",
+        "hour_offset": 8,
+        "precipitation_mm": 0.0,
+        "temperature_c": 24.3,
+        "relative_humidity_pct": 96.0,
+        "wind_speed_kmh": 6.8
+      },
+      {
+        "time": "2026-11-02T04:00",
+        "hour_offset": 9,
+        "precipitation_mm": 2.6,
+        "temperature_c": 24.0,
+        "relative_humidity_pct": 96.0,
+        "wind_speed_kmh": 4.4
+      },
+      {
+        "time": "2026-11-02T05:00",
+        "hour_offset": 10,
+        "precipitation_mm": 1.8,
+        "temperature_c": 24.2,
+        "relative_humidity_pct": 96.0,
+        "wind_speed_kmh": 3.1
+      },
+      {
+        "time": "2026-11-02T06:00",
+        "hour_offset": 11,
+        "precipitation_mm": 1.8,
+        "temperature_c": 24.6,
+        "relative_humidity_pct": 95.0,
+        "wind_speed_kmh": 3.4
+      },
+      {
+        "time": "2026-11-02T07:00",
+        "hour_offset": 12,
+        "precipitation_mm": 1.4,
+        "temperature_c": 24.9,
+        "relative_humidity_pct": 95.0,
+        "wind_speed_kmh": 1.7
+      }
+    ]
+  }
+}

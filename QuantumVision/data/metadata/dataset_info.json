@@ -1,0 +1,45 @@
+{
+  "dataset_name": "flood_training_samples.csv",
+  "project": "QuantumVision",
+  "objective": "Machine Learning-Based Flood Risk Assessment and Dynamic Evacuation Navigation Using GIS",
+  "study_area": "Srikakulam District, Andhra Pradesh, India",
+  "crs": "EPSG:4326 (WGS84)",
+  "version": "2.0",
+  "status": "VALIDATED_EXPANDED",
+  "total_samples": 5000,
+  "baseline_samples": 1500,
+  "new_samples_added": 3500,
+  "class_distribution": {
+    "non_flood_count": 4161,
+    "non_flood_percentage": 83.22,
+    "flood_count": 839,
+    "flood_percentage": 16.78,
+    "imbalance_ratio": 4.96
+  },
+  "features": [
+    "latitude",
+    "longitude",
+    "sar_vv_db",
+    "sar_vh_db",
+    "sar_vv_vh_ratio",
+    "sar_temporal_diff_db",
+    "elevation_m",
+    "slope_deg",
+    "distance_to_waterway_km",
+    "rainfall_accum_24h_mm",
+    "rainfall_intensity_mm_hr"
+  ],
+  "target": "flood_label",
+  "sources": [
+    "Copernicus Sentinel-1A Level-1 GRDH (Dual-Polarization C-SAR: 2025-09-22 and 2025-10-04)",
+    "Survey of India & Census 2011 Administrative Boundary (srikakulam_boundary.geojson)",
+    "Ground-Truth Verified Flood Inundation Polygons (srikakulam_flood_inundation.geojson, 250 features)",
+    "OpenStreetMap Surveyed Hydrographic River Network (srikakulam_rivers.geojson, 613 features)",
+    "Srikakulam Ground Weather Telemetry (8 stations from 2021 to 2025)",
+    "Hydro-DEM 30m Topographic Constraints"
+  ],
+  "split_strategy": "Spatial Block Grouped Split (5.5 km blocks, 0 cross-split leakage)",
+  "train_samples": 4018,
+  "test_samples": 982
+}
+

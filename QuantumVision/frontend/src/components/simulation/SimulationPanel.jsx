@@ -1,0 +1,1 @@
+export default function SimulationPanel() { return <div>Simulation</div>; }

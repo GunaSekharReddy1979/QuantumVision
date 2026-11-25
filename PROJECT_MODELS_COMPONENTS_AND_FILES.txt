@@ -1,0 +1,860 @@
+====================================================================================================
+QUANTUMVISION: INTELLIGENT DISASTER NAVIGATION & EMERGENCY EVACUATION MANAGEMENT
+PROJECT IMPLEMENTATION: MODELS, COMPONENTS, AND COMPLETE FILE INVENTORY
+====================================================================================================
+
+1. EXECUTIVE OVERVIEW
+----------------------------------------------------------------------------------------------------
+Project Name       : QuantumVision
+Primary Domain     : Disaster Management, Early Warning, 3D Digital Twin & Evacuation Navigation
+Geographic Scope   : Srikakulam District & Coastal Corridor of Andhra Pradesh, India
+Key Hazards Covered: Riverine Flood Inundation (Nagavali & Vamsadhara basins), Flash Floods,
+                     Heavy Monsoonal Rainfall, Cyclone & Coastal Storm Surge
+Architecture Type  : Decoupled Full-Stack Architecture (FastAPI REST Backend + Vite React 3D HUD)
+Core Paradigms     : Classical Machine Learning, Quantum-Inspired Optimization (QUBO & QML),
+                     3D Geospatial Digital Twin, Real-Time Sensor Telemetry, and Dynamic Routing
+
+
+====================================================================================================
+2. MAJOR COMPONENTS USED IN SYSTEM IMPLEMENTATION
+====================================================================================================
+
+2.1 BACKEND ENGINE & SERVICES
+----------------------------------------------------------------------------------------------------
+- Framework        : FastAPI (v0.100+) with Uvicorn ASGI Server
+- Language & Runtime: Python 3.12 (64-bit)
+- Database         : SQLite 3 with SQLAlchemy ORM (v2.0+) and Alembic-ready schema definitions
+- Schema Validation: Pydantic v2 (Strict type checking, request/response models, custom validators)
+- Authentication   : Python-Jose (JWT cryptographic tokens), Passlib with Bcrypt password hashing
+- Real-Time Comms  : WebSocket endpoint (`/ws/telemetry`) for streaming sensor updates & simulation state
+- Core Services (22 Services Implemented):
+  * `FloodPredictionService`      : Coordinates RF and XGBoost inferences on multi-source features
+  * `RainfallForecastingService` : Leak-free chronological 24h precipitation forecasting
+  * `RoutingService`             : Dynamic A* and Dijkstra pathfinding with flood-hazard penalty weights
+  * `SimulationService`          : Multi-parameter hydraulic what-if disaster simulation engine
+  * `DigitalTwinService`         : Harmonizes 3D spatial boundaries, inundation layers, road network & shelters
+  * `QuantumService`             : Evaluates PennyLane VQC & QNN circuits and QUBO route/facility matrices
+  * `FacilityService`            : Capacity monitoring and distance-ranked shelter/hospital matching
+  * `HospitalService`            : Hospital bed availability, trauma tier tracking, and facility triage
+  * `ShelterService`             : Evacuation shelter occupancy, food/water supply days, elevation safety
+  * `RiskService`                : Composite multi-hazard risk categorization (Low, Moderate, High, Severe)
+  * `NavigationService`          : Turn-by-turn waypoint generation for evacuation corridors
+  * `EmergencyService`           : SOS alert dispatch, responder assignment, and civilian safety guidance
+  * `DisasterService`            : Historical disaster cataloging, impact zoning, and damage assessment
+  * `DatasetService`             : Multi-format geospatial dataset ingestion, validation, and metadata indexing
+  * `LocationService`            : Andhra Pradesh district spatial hierarchy, bounding box validation
+  * `VisualizationService`       : Raster/vector layer styling and dynamic heatmap matrix generation
+  * `WeatherService`             : Open-Meteo ERA5 / NWP hourly atmospheric sync and station telemetry
+  * `ReportsService`             : Automated post-disaster PDF/JSON situational assessment reports
+  * `AuthService`                : User registration, role-based access control (Admin, Responder, Citizen)
+  * `PredictionService`          : Generic composite risk scoring across spatial telemetry points
+
+2.2 FRONTEND USER INTERFACE & DIGITAL TWIN
+----------------------------------------------------------------------------------------------------
+- Framework        : React 19 (React-DOM 19) built with Vite 8 bundler
+- Routing          : React Router DOM v7 (Client-side single-page routing with layout nesting)
+- 3D Digital Twin  : CesiumJS (v1.145) with Resium (v1.26) for 3D globe rendering, terrain models,
+                     and spatial polygon extrusion
+- 2D Interactive Map: Leaflet (v1.9) with React-Leaflet (v5.0) and MapLibre-GL (v6.11)
+- UI Styling       : Tailwind CSS v4 with custom Cyberpunk Glassmorphism theme, CSS variables,
+                     backdrop filters, glowing HUD borders, and smooth animations
+- Data Visualization: Recharts (v3.10) for rainfall charts, model metrics, confusion matrices,
+                     and timeline playback
+- Icons & Visuals  : Lucide-React (v1.33), SVG vector assets, custom radar/sonar HUD elements
+- State Management : Native React Context API (`AppContext`, `MapContext`, `SimulationContext`)
+- Custom Hooks     : `useCesium`, `useMapLayers`, `useRisk`, `useRouting`, `useSimulation`
+
+2.3 MACHINE LEARNING & EXPLAINABLE AI (XAI)
+----------------------------------------------------------------------------------------------------
+- Core Libraries   : Scikit-Learn (v1.3+), XGBoost (v2.0+), NumPy, Pandas, SciPy, Joblib
+- Preprocessing    : Feature scaling (StandardScaler, MinMaxScaler to [-pi, pi]), Outlier clipping,
+                     Cyclical date encoding (sin/cos day of year), Lag features (1h, 3h, 6h, 12h, 24h),
+                     Rolling precipitation accumulation (3h, 6h, 12h, 24h, 3d, 7d, 14d)
+- Explainable AI   : SHAP (SHapley Additive exPlanations) TreeExplainer integration, Global Mean
+                     Decrease in Impurity (MDI), and Local Feature Contribution rankings
+
+2.4 QUANTUM & QUANTUM-INSPIRED COMPUTING
+----------------------------------------------------------------------------------------------------
+- QML Framework    : PennyLane (v0.30+) with `default.qubit` statevector simulator and Qiskit integration
+- Quantum Circuits :
+  * 4-Qubit Variational Quantum Classifier (VQC) with AngleEmbedding, parameterized Rot gates,
+    and CNOT entanglement rings
+  * 4-Qubit Quantum Neural Network (QNN) with dual-axis AngleEmbedding and strongly entangling layers
+- QUBO Engine      : Quadratic Unconstrained Binary Optimization formulation for graph-based path
+                     search and facility allocation solved using Classical Simulated Annealing heuristics
+
+2.5 GIS & SPATIAL DATA PROCESSING
+----------------------------------------------------------------------------------------------------
+- Libraries        : GeoPandas (v0.13+), Rasterio (v1.3+), Shapely (v2.0+), PyProj (v3.6+), NetworkX (v3.1)
+- Spatial Formats  : GeoJSON (WGS84 EPSG:4326), GraphML road network, Copernicus DEM raster,
+                     Sentinel-1 SAR dual-polarized GeoTIFFs, Parquet columnar timeseries, OSM PBF
+
+
+====================================================================================================
+3. INVENTORY OF AI / ML / QUANTUM MODELS INCLUDED
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+MODEL 1: RANDOM FOREST FLOOD INUNDATION CLASSIFIER
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/classical/rf_flood_model.joblib
+                     (Mirror in ml/models/rf_flood_model.joblib)
+- Format           : Serialized Scikit-Learn Binary (.joblib)
+- Architecture     : Ensemble of 100 Decision Trees with balanced class weighting
+- Input Features   : 9 Geospatial & Hydrological Variables:
+                     1. `sar_vv_db`                (Sentinel-1 SAR VV backscatter intensity in dB)
+                     2. `sar_vh_db`                (Sentinel-1 SAR VH backscatter intensity in dB)
+                     3. `sar_vv_vh_ratio`          (Polarization cross-ratio)
+                     4. `sar_temporal_diff_db`     (Pre-event vs post-event backscatter change in dB)
+                     5. `elevation_m`              (Copernicus DEM elevation above MSL in meters)
+                     6. `slope_deg`                (Terrain slope in degrees)
+                     7. `distance_to_waterway_km`  (Proximity to nearest river or drainage canal in km)
+                     8. `rainfall_accum_24h_mm`    (24-hour antecedent rainfall in mm)
+                     9. `rainfall_intensity_mm_hr` (Peak rainfall intensity in mm/hr)
+- Target Output    : Binary Flood Inundation Flag (0: No Flood, 1: Flood Inundation)
+- Test Sample Count: 300 Stratified Held-out Samples (262 Class 0, 38 Class 1)
+- Validated Metrics:
+  * Accuracy       : 99.67%
+  * Precision      : 100.00% (Flood Class 1)
+  * Recall         : 97.37% (Flood Class 1)
+  * F1-Score       : 98.67% (Flood Class 1)
+  * ROC-AUC        : 1.0000
+  * Confusion Matrix: TN=262, FP=0, FN=1, TP=37
+- Operational Role : Primary high-precision spatial flood delineation baseline
+
+----------------------------------------------------------------------------------------------------
+MODEL 2: XGBOOST FLOOD INUNDATION CLASSIFIER
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/classical/xgb_flood_model.json
+                     (Mirrors in ml/models/xgb_flood_model.json and ml/artifacts/quantum/)
+- Format           : Native XGBoost JSON Model Specification (.json)
+- Architecture     : Gradient Boosted Decision Trees (max_depth=6, learning_rate=0.08, n_estimators=120)
+- Input Features   : Same 9 SAR and DEM Hydrological Variables as Model 1
+- Target Output    : Binary Flood Inundation Flag & Continuous Probability Distribution [0.0 - 1.0]
+- Test Sample Count: 300 Stratified Held-out Samples
+- Validated Metrics:
+  * Accuracy       : 99.67%
+  * Precision      : 100.00% (Flood Class 1)
+  * Recall         : 97.37% (Flood Class 1)
+  * F1-Score       : 98.67% (Flood Class 1)
+  * ROC-AUC        : 1.0000
+  * Confusion Matrix: TN=262, FP=0, FN=1, TP=37
+- Operational Role : Fast gradient-boosted tree inference engine with native SHAP contribution export
+
+----------------------------------------------------------------------------------------------------
+MODEL 3: RANDOM FOREST RAINFALL-DRIVEN FLOOD CLASSIFIER
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/classical/rf_rainfall_flood.joblib
+                     (Mirror in ml/models/rf_rainfall_flood.joblib)
+- Format           : Serialized Scikit-Learn Ensemble (.joblib)
+- Architecture     : 100 Estimators trained on multi-station Andhra Pradesh Telemetry records (2021-2025)
+- Input Features   : 20 Hydrometeorological & Temporal Predictors:
+                     `rolling_mean_7d_mm`, `cum_7d_rainfall_mm`, `rolling_max_7d_mm`, `rainfall_std_7d`,
+                     `cum_3d_rainfall_mm`, `daily_rainfall_mm`, `cum_14d_rainfall_mm`,
+                     `max_hourly_intensity`, `prev_day_rainfall_mm`, `rainfall_change_mm`,
+                     `humidity_pct`, `surface_pressure_hpa`, `wind_speed_kmh`, `temperature_c`,
+                     `day_of_year`, `day`, `month`, `Longitude`, `season`, `Latitude`
+- Target Output    : Flood Risk Event (4-Tier Mapping: LOW, MODERATE, HIGH, SEVERE)
+- Test Sample Count: 2,013 Chronological Test Samples (Year 2025 hold-out)
+- Validated Metrics:
+  * Accuracy       : 99.55%
+  * Precision      : 99.00%
+  * Recall         : 99.20%
+  * F1-Score       : 99.10%
+  * ROC-AUC        : 99.99%
+  * Confusion Matrix: TN=1511, FP=5, FN=4, TP=493
+
+----------------------------------------------------------------------------------------------------
+MODEL 4: XGBOOST RAINFALL-DRIVEN FLOOD CLASSIFIER
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/classical/xgb_rainfall_flood.json
+                     (Mirrors in ml/models/ and ml/artifacts/quantum/)
+- Format           : Native XGBoost JSON Model Specification (.json)
+- Architecture     : Gradient Boosted Trees optimized for chronological telemetry series
+- Input Features   : Same 20 Hydrometeorological Predictors as Model 3
+- Target Output    : Calibrated Probability of Flood Event
+- Test Sample Count: 2,013 Chronological Test Samples (Year 2025 hold-out)
+- Validated Metrics:
+  * Accuracy       : 99.90%
+  * Precision      : 99.60%
+  * Recall         : 100.00%
+  * F1-Score       : 99.80%
+  * ROC-AUC        : 100.00%
+  * Confusion Matrix: TN=1514, FP=2, FN=0, TP=497
+- Key Driving Feats: `rolling_mean_7d_mm` (58.11% importance), `cum_7d_rainfall_mm` (15.96%),
+                     `rainfall_std_7d` (11.01%), `rolling_max_7d_mm` (6.85%)
+
+----------------------------------------------------------------------------------------------------
+MODEL 5: RANDOM FOREST 24-HOUR RAINFALL FORECASTING REGRESSOR
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/models/rainfall/rf_rainfall_24h.joblib
+- Format           : Serialized Scikit-Learn Regressor (.joblib, ~4.79 MB)
+- Architecture     : Random Forest Regressor (n_estimators=100, max_features='sqrt', random_state=42)
+- Input Features   : 17 Historical Past-Only Atmospheric Predictors (Strict zero-leakage design):
+                     `lag_1h`, `lag_2h`, `lag_3h`, `lag_6h`, `lag_12h`, `lag_24h`,
+                     `rolling_sum_3h`, `rolling_sum_6h`, `rolling_sum_12h`, `rolling_sum_24h`,
+                     `rolling_mean_6h`, `rolling_mean_24h`, `max_intensity_past_24h`,
+                     `temp_lag_24h`, `pressure_lag_24h`, `day_of_year_sin`, `day_of_year_cos`
+- Target Output    : Next 24-Hour Cumulative Precipitation in millimeters (t+1 through t+24)
+- Test Sample Count: 70,080 Chronological Hourly Records (2024-2025 evaluation split)
+- Validated Metrics:
+  * Mean Absolute Error (MAE) : 4.192 mm (vs Baseline Persistence: 4.803 mm)
+  * Root Mean Square Error    : 8.710 mm (vs Baseline Persistence: 10.806 mm)
+  * R-Squared Score (R²)      : 0.2537   (vs Baseline Persistence: -0.1486)
+  * Heavy Rain Event MAE      : 22.769 mm (vs Baseline: 22.796 mm)
+
+----------------------------------------------------------------------------------------------------
+MODEL 6: XGBOOST 24-HOUR RAINFALL FORECASTING REGRESSOR
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/models/rainfall/xgb_rainfall_24h.json
+- Format           : Native XGBoost JSON Model (.json)
+- Architecture     : Gradient Boosted Decision Tree Regressor (objective='reg:squarederror')
+- Input Features   : Same 17 Non-leaking Atmospheric Time-Series Predictors as Model 5
+- Target Output    : Continuous Accumulated 24-Hour Rainfall (mm)
+- Test Sample Count: 70,080 Chronological Hourly Records (2024-2025 evaluation split)
+- Validated Metrics:
+  * Mean Absolute Error (MAE) : 4.115 mm (Best Overall Accuracy)
+  * Root Mean Square Error    : 8.552 mm (Best Overall Error Reduction)
+  * R-Squared Score (R²)      : 0.2806   (Superior predictive variance capture)
+  * Heavy Rain Event MAE      : 22.791 mm
+- Key Driving Feats: `rolling_sum_12h` (24.36% importance), `rolling_sum_24h` (17.75%),
+                     `max_intensity_past_24h` (6.46%), `rolling_sum_6h` (6.31%)
+
+----------------------------------------------------------------------------------------------------
+MODEL 7: VARIATIONAL QUANTUM CLASSIFIER (VQC)
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/quantum/vqc_weights.npy
+                     (Mirror in ml/models/vqc_weights.npy)
+- Format           : NumPy N-Dimensional Binary Weights Array (.npy)
+- Circuit Spec     : 4 Qubits, 2 Entangled Layers, 24 Parameterized Rotational Weights
+- Simulator        : PennyLane `default.qubit` statevector simulator
+- Encoding Method  : AngleEmbedding on 4 dominant features mapped into [-\pi, \pi]:
+                     1. `sar_vv_db`
+                     2. `sar_temporal_diff_db`
+                     3. `elevation_m`
+                     4. `rainfall_accum_24h_mm`
+- Variational Gates: Parameterized `qml.Rot(\phi, \theta, \omega)` on all 4 wires followed by
+                     periodic circular CNOT entangling gates
+- Measurement      : Expectation value of Pauli-Z operator `qml.expval(qml.PauliZ(0))` mapped to [0, 1]
+- Test Sample Count: 300 Identical Held-Out Srikakulam Test Samples
+- Validated Metrics:
+  * Accuracy       : 91.67%
+  * Precision      : 62.75% (Flood Class 1)
+  * Recall         : 84.21% (Flood Class 1)
+  * F1-Score       : 71.91% (Flood Class 1)
+  * ROC-AUC        : 0.9759
+  * Confusion Matrix: TN=243, FP=19, FN=6, TP=32
+- Operational Status: Validated Quantum Machine Learning Simulation (No physical hardware claimed)
+
+----------------------------------------------------------------------------------------------------
+MODEL 8: QUANTUM NEURAL NETWORK (QNN)
+----------------------------------------------------------------------------------------------------
+- File Path        : ml/artifacts/quantum/qnn_weights.npy
+                     (Mirror in ml/models/qnn_weights.npy)
+- Format           : NumPy N-Dimensional Binary Weights Array (.npy)
+- Circuit Spec     : 4 Qubits, 2 Entangled Layers, 16 Parameterized Rotational Weights
+- Simulator        : PennyLane `default.qubit` statevector simulator
+- Encoding Method  : Dual-axis AngleEmbedding (Hadamard gates + RY/RZ feature rotations)
+- Entanglement     : Strongly entangling layers with nearest-neighbor CNOT ring
+- Measurement      : Average expectation value across all wires: `\frac{1}{4} \sum_{i=0}^3 \langle Z_i \rangle`
+- Test Sample Count: 300 Identical Held-Out Srikakulam Test Samples
+- Validated Metrics:
+  * Accuracy       : 56.33%
+  * Precision      : 19.21%
+  * Recall         : 76.32%
+  * F1-Score       : 30.69%
+  * ROC-AUC        : 0.6107
+  * Confusion Matrix: TN=140, FP=122, FN=9, TP=29
+- Operational Role : Quantum circuit architecture benchmark comparing depth vs parameter expressivity
+
+----------------------------------------------------------------------------------------------------
+MODEL 9: FEATURE PREPROCESSING SCALERS
+----------------------------------------------------------------------------------------------------
+- File Paths       : ml/artifacts/classical/scaler.joblib
+                     ml/artifacts/quantum/quantum_scaler.joblib
+                     (Mirrors in ml/models/)
+- Formats          : Scikit-Learn Serialized Transformers (.joblib)
+- Scaler 1 (Classical): StandardScaler fitted on training set (zero mean, unit variance)
+- Scaler 2 (Quantum)  : MinMaxScaler fitted to map input feature distributions strictly to [-\pi, \pi]
+
+----------------------------------------------------------------------------------------------------
+MODEL 10: ARTERIAL ROAD NETWORK GRAPH MODEL
+----------------------------------------------------------------------------------------------------
+- File Paths       : data/processed/roads/srikakulam_arterial_graph.joblib (~23.6 MB)
+                     data/processed/roads/srikakulam_road_network.graphml (~126.4 MB)
+- Format           : NetworkX Graph Object Serialized via Joblib & GraphML XML
+- Graph Topology   : Directed Multigraph containing all arterial highways, state roads, and local
+                     evacuation links in Srikakulam District (NH-16 corridor, coastal lifelines)
+- Edge Attributes  : Length in meters, highway tier, speed limit, elevation MSL, flood vulnerability,
+                     dynamic water inundation penalty, bridge/culvert flags
+
+----------------------------------------------------------------------------------------------------
+MODEL 11: QUBO EVACUATION ROUTE OPTIMIZATION ENGINE
+----------------------------------------------------------------------------------------------------
+- Implementation   : `backend/app/services/quantum_service.py` & `quantum/route_optimization.py`
+- Mathematical Form: Quadratic Unconstrained Binary Optimization:  min  x^T * Q * x
+                     Subject to binary flow conservation constraints:
+                     - Variable x_i = 1 if road segment i is selected in evacuation path
+                     - Matrix Q penalizes distance, flood water level, bottleneck congestion, and road cutoffs
+- Solver Algorithm : Classical Simulated Annealing with exponential cooling schedule
+- Baseline Compare : Side-by-side benchmark against Classical Dijkstra and A* algorithms
+
+----------------------------------------------------------------------------------------------------
+MODEL 12: QUBO CAPACITY-CONSTRAINED SHELTER ALLOCATION OPTIMIZER
+----------------------------------------------------------------------------------------------------
+- Implementation   : `backend/app/services/shelter_service.py` & `quantum/facility_optimization.py`
+- Objective        : Minimizes total community evacuation transit time while enforcing hard capacity
+                     thresholds, medical triage requirements, and flood-free access buffer zones
+
+
+====================================================================================================
+4. COMPLETE DIRECTORY BREAKDOWN & FILE INVENTORY
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+4.1 BACKEND APPLICATION CORE & INFRASTRUCTURE
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/backend/
+├── app.py                          # Legacy backend server launcher
+├── pytest.ini                      # Pytest unit and integration test configuration
+├── requirements.txt                # Production Python dependencies and version constraints
+├── requirements-dev.txt            # Development, linting, and testing dependencies
+├── quantumvision.db                # SQLite application database containing shelters, users, logs
+└── app/
+    ├── __init__.py                 # Package marker
+    ├── main.py                     # Main FastAPI application factory, lifespan event handler & routing
+    ├── core/
+    │   ├── __init__.py             # Package marker
+    │   ├── config.py               # Pydantic BaseSettings for application configuration & environment
+    │   ├── constants.py            # Global disaster constants, color palettes, risk thresholds
+    │   ├── database.py             # SQLAlchemy engine setup, sessionmaker, and Base metadata
+    │   ├── exceptions.py           # Custom exception classes and global HTTP error handlers
+    │   ├── geo_config.py           # Coordinate bounds, CRS definitions (EPSG:4326), Srikakulam bounding box
+    │   ├── logger.py               # Loguru-based structured logging service with console & file sink
+    │   ├── middleware.py           # CORS middleware, request timing, and security headers
+    │   └── security.py             # Password hashing (bcrypt) and JWT encoding/decoding utilities
+    ├── data/
+    │   └── srikakulam_boundary.geojson # Srikakulam district administrative boundary GeoJSON
+    ├── models/
+    │   ├── __init__.py             # SQLAlchemy models export
+    │   ├── disaster.py             # `DisasterEvent` table for recorded flood and cyclone incidents
+    │   ├── hospital.py             # `Hospital` table for emergency medical centers and trauma facilities
+    │   ├── prediction.py           # `RiskPrediction` table logging spatial prediction requests and scores
+    │   ├── shelter.py              # `Shelter` table for emergency evacuation relief centers & capacities
+    │   ├── simulation.py           # `SimulationRun` table storing multi-timestep hydraulic scenario runs
+    │   └── user.py                 # `User` table for authentication, roles, and administrative profiles
+    ├── schemas/
+    │   ├── __init__.py             # Pydantic schemas export
+    │   ├── auth.py                 # User login, registration, and token validation schemas
+    │   ├── common.py               # `BaseResponse`, `HealthStatusResponse`, `GeoPoint`, `BoundingBox`
+    │   ├── dataset.py              # Geospatial dataset upload and metadata schemas
+    │   ├── disaster.py             # Disaster detection and hazard reporting schemas
+    │   ├── emergency.py            # SOS alert creation and responder dispatch schemas
+    │   ├── facility.py             # Shelter recommendation and facility exposure assessment schemas
+    │   ├── hazard.py               # Inundation analysis and hazard layer metadata schemas
+    │   ├── hospital.py             # Hospital registry and bed status schemas
+    │   ├── location.py             # District info, coordinates, and bounding box validation schemas
+    │   ├── navigation.py           # Waypoints and turn-by-turn navigation response schemas
+    │   ├── prediction.py           # Multi-model risk prediction request/response schemas
+    │   ├── quantum.py              # Quantum inference and QUBO optimization request/response schemas
+    │   ├── reports.py              # Situational disaster assessment report schemas
+    │   ├── risk.py                 # Composite risk index and SHAP explanation schemas
+    │   ├── route.py                # Safe route, alternative paths, and detour geometry schemas
+    │   ├── shelter.py              # Evacuation shelter capacity and supply schemas
+    │   ├── simulation.py           # Dynamic what-if simulation parameter and state schemas
+    │   └── visualization.py        # Map layers, choropleths, and heatmap schemas
+    └── utils/
+        ├── __init__.py             # Utility package marker
+        ├── formatters.py           # Metric formatting, unit converters (mm, km/h, meters)
+        ├── geo.py                  # Haversine distance calculations, coordinate transformation, point-in-polygon
+        └── image.py                # Satellite image processing and matrix conversions
+
+----------------------------------------------------------------------------------------------------
+4.2 BACKEND API ROUTERS (27 ROUTER MODULES)
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/backend/app/api/
+├── auth.py                         # User registration and JWT authentication endpoints
+├── dataset.py                      # Dataset upload, indexing, CRS validation, and preview endpoints
+├── disaster.py                     # Disaster event creation, classification, and catalog query endpoints
+├── emergency.py                    # SOS emergency dispatch, civilian broadcast, and alert endpoints
+├── explainability.py               # SHAP feature contributions and rule-based decision explanations
+├── facilities.py                   # Unified shelter and hospital querying and proximity search
+├── flood.py                        # Spatial flood extent layers, inundation polygons, and water status
+├── flood_prediction.py             # ML-based flood risk inference and data summary endpoints
+├── hazards.py                      # Multi-hazard regional summaries for flood, cyclone, and rainfall
+├── health.py                       # Comprehensive service diagnostic and system status endpoint
+├── hospital.py                     # Hospital registry, triage levels, and intensive care bed tracker
+├── locations.py                    # Andhra Pradesh 26-district spatial database and search endpoints
+├── map.py                          # GeoJSON vector layers, tile metadata, and styling endpoints
+├── models.py                       # Model registry, evaluation benchmarks, and accuracy metrics
+├── navigation.py                   # Turn-by-turn navigation instructions for rescue personnel
+├── prediction.py                   # Generic risk score inference pipeline
+├── quantum.py                      # PennyLane VQC/QNN inference and QUBO optimization endpoints
+├── rainfall.py                     # 24h rainfall forecasts, model training triggers, and point metrics
+├── reports.py                      # Disaster summary reports and automated situational analysis
+├── risk.py                         # Composite risk prediction and district-level vulnerability
+├── routing.py                      # Evacuation routing, alternative paths, and dynamic flood avoidance
+├── shelter.py                      # Safe relief shelters, live occupancy, and nearby recommendation
+├── simulation.py                   # Parameterized flood scenario creation, step advancement, and reset
+├── visualization.py                # Map layer catalog and heatmap point rendering
+├── weather.py                      # Historical Open-Meteo sync and real-time weather observations
+└── websocket.py                    # Real-time WebSocket connection for streaming telemetry updates
+
+----------------------------------------------------------------------------------------------------
+4.3 BACKEND BUSINESS LOGIC SERVICES (22 SERVICE MODULES)
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/backend/app/services/
+├── auth_service.py                 # JWT token generation, password encryption, credential verification
+├── dataset_service.py              # Ingestion, validation, and storage of uploaded geospatial datasets
+├── digital_twin_service.py         # Orchestration of multi-layer 3D digital twin spatial states
+├── disaster_service.py             # Disaster incident tracking, historical event querying
+├── emergency_service.py            # Emergency SOS alert handling, civilian notification dispatch
+├── facility_service.py             # Capacity filtering, distance matrix calculation for shelters/hospitals
+├── flood_prediction_service.py     # Coordinates RF and XGBoost models for rainfall-driven flood risk
+├── flood_service.py                # Sentinel-1 SAR inundation polygon extraction and spatial querying
+├── hospital_service.py             # Hospital data management, critical care bed updates
+├── location_service.py             # Andhra Pradesh district geometries and spatial search
+├── navigation_service.py           # Generation of turn-by-turn evacuation directions and road warnings
+├── prediction_service.py           # Multi-criteria vulnerability scoring across environmental inputs
+├── quantum_service.py              # PennyLane VQC/QNN circuit evaluation and QUBO formulation
+├── rainfall_forecasting_service.py # Chronological 24h precipitation forecasting and lag feature creation
+├── reports_service.py              # Generation of formatted disaster assessment summaries
+├── risk_service.py                 # Composite risk index computation combining flood, rainfall, and terrain
+├── routing_service.py              # A* and Dijkstra pathfinding over Srikakulam road network
+├── shelter_service.py              # Evacuation shelter capacity management and nearest-safe matching
+├── simulation_service.py           # Dynamic what-if hydraulic simulation with road submersion impact
+├── visualization_service.py        # Preparation of choropleth and point layers for map display
+└── weather_service.py              # Synchronization with Open-Meteo ERA5 reanalysis and live forecasts
+
+----------------------------------------------------------------------------------------------------
+4.4 FRONTEND ENTRYPOINTS, LAYOUTS & STYLING
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/frontend/
+├── index.html                      # HTML5 entrypoint with CesiumJS script/stylesheet linkings
+├── vite.config.js                  # Vite build configuration with React and Cesium plugins
+├── package.json                    # Frontend package dependencies (React 19, CesiumJS, Tailwind CSS)
+└── src/
+    ├── main.jsx                    # React application bootstrap rendering into root DOM element
+    ├── App.jsx                     # Central router defining all primary and redirect routes
+    ├── index.css                   # Global Tailwind directives and base UI reset
+    ├── layouts/
+    │   ├── AppLayout.jsx           # Master HUD frame containing TopNavbar, Sidebar, and Viewport
+    │   └── index.js                # Layout module export
+    └── styles/
+        ├── animations.css          # Pulse, glow, scanning radar, and fade animation keyframes
+        ├── globals.css             # Glassmorphism utilities, scrollbars, custom UI scroll tracks
+        ├── layout.css              # Grid and flex layouts for responsive split HUD screens
+        ├── map.css                 # Cesium and Leaflet viewport styles, custom tooltip popups
+        ├── panels.css              # Cyberpunk glass cards, telemetry HUD containers, status pills
+        └── theme.css               # Neon cyan, danger amber, quantum purple, emerald palette variables
+
+----------------------------------------------------------------------------------------------------
+4.5 FRONTEND USER INTERFACE PAGES (26 PAGES)
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/frontend/src/pages/
+├── Dashboard.jsx                   # Master Operations Command Dashboard with high-level KPI cards
+├── CommandCenter.jsx               # Real-time incident management HUD for emergency responders
+├── Overview.jsx                    # System-wide summary of active disaster events and safety status
+├── DisasterDetection.jsx           # Satellite & sensor anomaly detection interface
+├── FloodPrediction.jsx             # ML-driven flood inundation probability and risk zone map
+├── RainfallForecast.jsx            # 24h/48h chronological rainfall forecasting with timeseries charts
+├── FloodRiskAssessment.jsx         # District-wide risk assessment with multi-parameter filtering
+├── EvacuationRouting.jsx           # Dynamic flood-aware evacuation route planner with alternative paths
+├── Navigation.jsx                  # Turn-by-turn evacuation corridor guidance
+├── MapLayers.jsx                   # Multi-layer GIS catalog (SAR flood, road network, shelters, terrain)
+├── DigitalTwin.jsx                 # Full 3D CesiumJS digital twin of Srikakulam District
+├── DisasterSimulation.jsx          # Interactive what-if hydraulic simulation sandbox
+├── Simulation.jsx                  # Multi-step scenario runner showing before/after impact
+├── QuantumAnalytics.jsx            # Quantum circuit analytics, statevector simulator benchmarks
+├── ModelPerformance.jsx            # Detailed audit comparing RF, XGBoost, VQC, and QNN models
+├── SheltersHospitals.jsx           # Interactive directory of emergency shelters and healthcare hubs
+├── EmergencyResponse.jsx           # Civilian emergency alert broadcasts and relief coordination
+├── SOS.jsx                         # One-click civilian SOS emergency signal generator
+├── DataManagement.jsx              # Geospatial dataset upload, CRS validation, and registry view
+├── Analytics.jsx                   # High-level disaster trend analytics and historical distributions
+├── Reports.jsx                     # Automated situational report viewer and export interface
+├── History.jsx                     # Historical flood and cyclone disaster event archives
+├── Settings.jsx                    # User preferences, API endpoint configuration, simulation toggles
+├── Visualization.jsx               # Spatial choropleth and telemetry heatmap visualizer
+└── Login.jsx                       # User authentication and responder login page
+
+----------------------------------------------------------------------------------------------------
+4.6 FRONTEND UI COMPONENTS (BY DOMAIN)
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/frontend/src/components/
+├── common/
+│   └── CinematicIntro.jsx          # Futuristic introductory splash HUD
+├── dashboard/
+│   ├── Dashboard.jsx               # Dashboard container
+│   ├── FloodImpactRightPanel.jsx   # Right-hand panel displaying affected population and submerged roads
+│   ├── FloodIntelligencePanel.jsx  # AI-derived flood warning and telemetry summary
+│   ├── HazardMapLeftPanel.jsx      # Left sidebar with hazard layer toggles and active alerts
+│   ├── HazardMapRightPanel.jsx     # Right sidebar with real-time station metrics
+│   ├── IncidentPanel.jsx           # Active incident feed with responder status tags
+│   ├── NavigationRightPanel.jsx    # Real-time routing instructions and detour warnings
+│   ├── NotificationPanel.jsx       # Alert notification drawer for critical flood warnings
+│   ├── OverviewCards.jsx           # Key metric cards: Flood Area, Population at Risk, Open Shelters
+│   ├── RightInformationPanel.jsx   # Contextual detail inspector for selected map entities
+│   └── RiskSummary.jsx             # Visual risk meter (Low / Moderate / High / Severe)
+├── datasets/
+│   ├── DatasetManager.jsx          # Administrative dataset management table
+│   ├── DatasetPreview.jsx          # Tabular preview of ingested CSV/GeoJSON datasets
+│   ├── DatasetUpload.jsx           # Drag-and-drop file uploader with progress indicator
+│   ├── DatasetValidation.jsx       # CRS (EPSG:4326) and geometry integrity checks
+│   └── ProcessingStatus.jsx        # Background geospatial processing progress bar
+├── emergency/
+│   ├── EmergencyAlerts.jsx         # Live emergency alert ticker and broadcast banner
+│   ├── EmergencyAssistant.jsx      # AI-guided civilian evacuation assistant and safety checklist
+│   ├── SOSPanel.jsx                # High-visibility emergency SOS panic trigger
+│   └── SafetyGuidance.jsx          # Pre-disaster and during-flood safety advisory cards
+├── explainability/
+│   ├── ExplainableAI.jsx           # Main explainability container
+│   ├── ExplanationPanel.jsx        # Model explanation drawer showing prediction rationale
+│   └── FeatureContributions.jsx    # Visual bar chart of SHAP feature importance values
+├── facilities/
+│   ├── FacilitiesPanel.jsx         # Facility filtering tabs (All, Shelters, Hospitals)
+│   ├── FacilityDetails.jsx         # Detailed modal for selected facility (capacity, contact, supplies)
+│   ├── HospitalList.jsx            # Scrollable hospital cards with available bed counters
+│   └── ShelterList.jsx             # Scrollable shelter cards with current occupancy percentage
+├── hazards/
+│   ├── FloodPanel.jsx              # Flood severity selector and water level gauge
+│   ├── HazardDetails.jsx           # Detailed hazard breakdown for selected district/mandal
+│   └── HazardLegend.jsx            # Map legend explaining flood depth and risk zone colors
+├── layout/
+│   ├── AppLayout.jsx               # Overall shell wrapping navigation and main container
+│   ├── AppShell.jsx                # Inner layout frame
+│   ├── BottomTimeline.jsx          # Simulation playback timeline with play/pause/scrub controls
+│   ├── Header.jsx                  # Header with system clock, status indicator, and profile icon
+│   ├── LowerContextualPanel.jsx    # Collapsible bottom drawer for telemetry and charts
+│   ├── Navigation.jsx              # Navigation menu items
+│   ├── Sidebar.jsx                 # Collapsible icon sidebar with cyber styling
+│   ├── StatusBar.jsx               # System health, backend connection, and GPS lock status bar
+│   └── TopNavbar.jsx               # Top navigation bar with active district selector
+├── map/
+│   ├── CesiumMap.jsx               # 3D CesiumJS globe with terrain, boundary, and route extrusion
+│   ├── DisasterMap.jsx             # 2D Leaflet interactive map with custom dark matter tiles
+│   ├── DistrictSelector.jsx        # Dropdown selector for Andhra Pradesh districts
+│   ├── FacilityMarkers.jsx         # Custom SVG markers for shelters and hospitals
+│   ├── FloodPredictionMap.jsx      # Map view showing AI flood inundation polygons
+│   ├── HazardOverlay.jsx           # Transparent raster/vector flood overlay
+│   ├── LayerControlPanel.jsx       # Floating layer toggle HUD (Boundaries, Flood, Roads, Shelters)
+│   ├── LocationSelector.jsx        # Location search box with autocomplete
+│   ├── MapControls.jsx             # Zoom, reset camera, 2D/3D toggle, full-screen buttons
+│   ├── MapLayers.jsx               # Comprehensive GIS layer manager
+│   ├── RainfallWeatherMap.jsx      # Multi-station weather telemetry and isohyet rainfall contours
+│   └── RouteVisualization.jsx      # Animated evacuation polyline with hazard warning markers
+├── quantum/
+│   ├── ClassicalComparison.jsx     # Side-by-side benchmark table: RF vs XGB vs VQC vs QNN
+│   ├── OptimizationResults.jsx     # QUBO route optimization metrics and energy convergence chart
+│   └── QuantumAnalytics.jsx        # PennyLane quantum circuit visualizer and parameter inspector
+├── risk/
+│   ├── RiskCards.jsx               # High-level risk category summary cards
+│   ├── RiskExplanation.jsx         # Natural language risk explanation based on top features
+│   ├── RiskMap.jsx                 # Chloropleth map colored by composite risk level
+│   └── RiskPrediction.jsx          # Form to input custom environmental features and test inference
+├── routing/
+│   ├── AlternativeRoutes.jsx       # Cards comparing Primary, Elevated Ridge, and Safe Bypass paths
+│   ├── FloatingRouteComparison.jsx # Draggable floating HUD comparing path distance and risk index
+│   ├── NavigationPanel.jsx         # Start/destination coordinate input and route trigger
+│   ├── RouteExplanation.jsx        # Explanation of why specific roads were avoided due to flood depth
+│   └── RouteResults.jsx            # ETA, distance in km, safety index, and road passability status
+└── simulation/
+    ├── SimulationControls.jsx      # Sliders for rainfall intensity, flood level, and road closures
+    ├── SimulationPanel.jsx         # Simulation cockpit with scenario presets (Monsoon, Cyclone Landfall)
+    ├── SimulationStatus.jsx        # Real-time state of simulation step and active scenario
+    └── SimulationTimeline.jsx      # Hour-by-hour simulation scrub bar (t+0h to t+48h)
+
+----------------------------------------------------------------------------------------------------
+4.7 FRONTEND STATE CONTEXTS, CUSTOM HOOKS & API SERVICES
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/frontend/src/
+├── context/
+│   ├── AppContext.jsx              # Global application context (active district, theme, user session)
+│   ├── MapContext.jsx              # Spatial context (active map center, zoom, active layers, 2D/3D mode)
+│   └── SimulationContext.jsx       # Simulation state (scenario parameters, step, paused, speed)
+├── hooks/
+│   ├── useCesium.js                # Custom hook managing Cesium Viewer lifecycle and camera animations
+│   ├── useMapLayers.js             # Hook for dynamically loading and filtering GeoJSON layers
+│   ├── useRisk.js                  # Hook fetching risk indices and SHAP explanations
+│   ├── useRouting.js               # Hook managing route calculation, alternatives, and geometry state
+│   └── useSimulation.js            # Hook controlling dynamic simulation execution and parameter updates
+├── services/
+│   ├── api.js                      # Central Axios API instance with base URL and error interceptors
+│   ├── apiClient.js                # Reusable HTTP client wrapper with authentication header injection
+│   ├── datasetApi.js               # API service for dataset management and upload
+│   ├── explainabilityApi.js        # API service fetching SHAP values and model feature importances
+│   ├── facilityApi.js              # API service for shelters and hospitals query
+│   ├── floodPredictionApi.js       # API service for flood ML inference and data summaries
+│   ├── hazardApi.js                # API service for flood, cyclone, and hazard alerts
+│   ├── healthApi.js                # API service for backend health checks
+│   ├── locationApi.js              # API service for district listings and boundary geometries
+│   ├── quantumApi.js               # API service for PennyLane quantum inference and QUBO routing
+│   ├── rainfallApi.js              # API service for 24h rainfall forecasts and model training
+│   ├── reportsApi.js               # API service for disaster summary reports
+│   ├── riskApi.js                  # API service for composite risk predictions
+│   ├── routingApi.js               # API service for pathfinding and route alternatives
+│   └── simulationApi.js            # API service for scenario simulation runs
+├── utils/
+│   ├── formatters.js               # Formatters for timestamps, rainfall amounts, distances, and percentages
+│   ├── geoUtils.js                 # Spatial bounding box calculations, coordinates formatting
+│   ├── riskUtils.js                # Color mappings and category labels for risk tiers
+│   ├── shelterEngine.js            # Client-side heuristic for shelter capacity sorting
+│   └── validation.js               # Input validation for coordinates, file formats, and numbers
+└── map/
+    ├── DigitalTwinMap.jsx          # Composite digital twin map integrating layers
+    ├── FloodLayer.jsx              # GeoJSON flood inundation layer with interactive tooltips
+    ├── RouteLayer.jsx              # Evacuation route polylines with turn indicators
+    └── ShelterLayer.jsx            # Shelter and hospital markers with capacity popups
+
+----------------------------------------------------------------------------------------------------
+4.8 MACHINE LEARNING SUBSYSTEM CODEBASE
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/ml/
+├── README.md                       # Machine learning architecture, safety rules, and documentation
+├── data_ingestion/
+│   └── __init__.py                 # Ingestion package marker
+├── digital_twin/
+│   └── __init__.py                 # Digital twin ML hooks
+├── evaluation/
+│   ├── evaluate_flood.py           # Evaluates RF, XGBoost, VQC, and QNN on test samples
+│   └── metrics.py                  # Computes Accuracy, F1, ROC-AUC, Confusion Matrix, MAE, RMSE
+├── explainability/
+│   ├── feature_importance.py       # Global MDI and local feature contribution calculations
+│   ├── rule_explainer.py           # Fallback rule-based explanation engine
+│   └── shap_explainer.py           # SHAP TreeExplainer integration for XGBoost/RF
+├── feature_engineering/
+│   └── __init__.py                 # Feature engineering package marker
+├── inference/
+│   ├── flood_inference.py          # Command-line and programmatic flood prediction interface
+│   ├── model_loader.py             # Singleton ModelRegistry caching trained classical & quantum models
+│   └── prediction_pipeline.py      # Multi-model risk inference pipeline with transparent status tags
+├── models/
+│   ├── evaluation_metrics.json     # Ground-truth evaluation metrics for Srikakulam flood test split
+│   ├── feature_importance.json     # Precomputed global feature importance rankings
+│   ├── qnn_weights.npy             # Trained 4-qubit Quantum Neural Network weights
+│   ├── quantum_scaler.joblib       # Scaler mapping features to [-\pi, \pi] for quantum encoding
+│   ├── rainfall_flood_metadata.json# Telemetry dataset metadata and 4-tier model performance
+│   ├── rf_flood_model.joblib       # Trained Random Forest flood classifier
+│   ├── rf_rainfall_flood.joblib    # Trained Random Forest rainfall-driven flood classifier
+│   ├── scaler.joblib               # StandardScaler for classical ML features
+│   ├── vqc_weights.npy             # Trained 4-qubit Variational Quantum Classifier weights
+│   ├── xgb_flood_model.json        # Trained XGBoost flood classifier
+│   ├── xgb_rainfall_flood.json     # Trained XGBoost rainfall-driven flood classifier
+│   ├── classical/
+│   │   ├── __init__.py             # Package marker
+│   │   ├── random_forest.py        # Random Forest model wrapper class
+│   │   └── xgboost.py              # XGBoost model wrapper class
+│   ├── quantum/
+│   │   ├── __init__.py             # Package marker
+│   │   ├── qnn.py                  # Quantum Neural Network class with PennyLane simulation
+│   │   └── vqc.py                  # Variational Quantum Classifier class with PennyLane simulation
+│   └── rainfall/
+│       ├── evaluation_metrics.json # Chronological test evaluation metrics for rainfall regression
+│       ├── rf_rainfall_24h.joblib  # Trained Random Forest 24h rainfall forecasting regressor
+│       └── xgb_rainfall_24h.json   # Trained XGBoost 24h rainfall forecasting regressor
+├── preprocessing/
+│   └── __init__.py                 # Preprocessing package marker
+└── training/
+    ├── feature_engineering.py      # Spatial proximity, catchment area, and slope calculation
+    ├── preprocessing.py            # Missing value imputation, outlier filtering, scaling
+    ├── train_flood.py              # Script training RF, XGBoost, VQC, and QNN flood models
+    └── train_rainfall_flood.py     # Script training chronological rainfall-driven flood models
+
+----------------------------------------------------------------------------------------------------
+4.9 QUANTUM-INSPIRED SUBSYSTEM CODEBASE
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/quantum/
+├── README.md                       # Quantum subsystem architecture and scientific integrity principles
+├── __init__.py                     # Package marker
+├── classical_comparison.py         # Comparative benchmarking of QUBO annealing vs Dijkstra and A*
+├── config.py                       # Annealing hyperparameters (T_init, cooling rate, number of steps)
+├── facility_optimization.py        # QUBO capacity-constrained emergency shelter assignment
+├── qubo_formulation.py             # Road network graph mapping into QUBO penalty matrices
+├── route_optimization.py           # Multi-objective evacuation path optimization via simulated annealing
+└── simulated_annealing.py          # Classical simulated annealing solver for QUBO energy minimization
+
+----------------------------------------------------------------------------------------------------
+4.10 STANDALONE DATA PROCESSING, AUTOMATION & SCRIPT SUITE
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/scripts/
+├── audit_and_evaluate_models.py    # Master model audit script verifying all 6 models on real test data
+├── build_road_graph.py             # Constructs NetworkX road graph for Srikakulam from OSM data
+├── generate_features.py            # Feature engineering pipeline extracting terrain and hydrological factors
+├── health_check.py                 # System diagnostic validating database, paths, and backend services
+├── process_gis_data.py             # Extracts administrative boundaries, roads, and facilities into GeoJSON
+├── process_sentinel1_sar.py        # Processes dual-date Sentinel-1 SAR imagery to delineate flood extent
+├── run_classical.py                # Runner executing classical ML rainfall and flood predictions
+├── run_quantum.py                  # Runner executing PennyLane VQC and QNN circuits on test vectors
+├── train_rainfall_models.py        # Leak-free chronological training script for rainfall regression models
+├── update_flood_tooltip.py         # Utility script maintaining tooltip properties in frontend components
+├── validate_datasets.py            # Validates dataset CRS (EPSG:4326), geometry types, and null counts
+└── visualize_quantum_circuits.py   # Renders and exports PennyLane VQC and QNN circuit diagrams
+
+----------------------------------------------------------------------------------------------------
+4.11 TEST SUITES & VERIFICATION HARNESS
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/tests/ and QuantumVision/backend/tests/
+├── tests/
+│   ├── README.md                   # Integration testing guide and instructions
+│   └── integration/
+│       ├── test_frontend_backend.py# Contract tests validating API endpoints against frontend expectations
+│       └── test_map_api.py         # Verification of GeoJSON layers, bounding boxes, and geometry formats
+└── backend/tests/
+    ├── conftest.py                 # Test fixtures, TestClient initialization, mock databases
+    ├── test_api.py                 # Comprehensive REST endpoint integration tests
+    ├── test_datasets.py            # Dataset upload, indexing, and processing tests
+    ├── test_explainability.py      # Feature importance and SHAP endpoint tests
+    ├── test_facilities.py          # Shelter and hospital querying and capacity tests
+    ├── test_hazards.py             # Flood and cyclone hazard endpoint tests
+    ├── test_health.py              # Health check diagnostic endpoint tests
+    ├── test_locations.py           # District search, listing, and coordinate validation tests
+    ├── test_models.py              # Model status, benchmark retrieval, and schema tests
+    ├── test_quantum_visualization.py# Circuit diagram generation and quantum endpoint tests
+    ├── test_rainfall_pipeline.py   # Rainfall forecasting data flow and inference tests
+    ├── test_risk.py                # Composite risk prediction and scoring tests
+    ├── test_routing.py             # A* and Dijkstra evacuation routing tests with flood avoidance
+    └── test_simulation.py          # Hydraulic simulation scenario creation and step progression tests
+
+----------------------------------------------------------------------------------------------------
+4.12 DATA ASSETS & STORAGE REPOSITORIES
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/data/
+├── README.md                       # Data dictionary, CRS standards, and folder layout documentation
+├── features/
+│   ├── combined_hazard_features.csv# Consolidated multi-hazard feature matrix
+│   ├── feature_metadata.json       # Feature column descriptions, units, and data types
+│   ├── flood_features.csv          # Feature matrix for flood inundation classification
+│   ├── flood_training_samples.csv  # 1,500 labeled spatial samples (SAR backscatter, elevation, slope, rain)
+│   └── rainfall_flood_daily.csv    # 11,284 daily aggregated telemetry records with flood severity labels
+├── metadata/
+│   ├── class_mapping.yaml          # Mapping of risk labels to numeric classes
+│   ├── data_sources.md             # Attribution of satellite, DEM, and weather sources
+│   ├── dataset_info.json           # Registry metadata for active datasets
+│   ├── dataset_registry.csv        # Dataset catalog index
+│   ├── dataset_registry.json       # JSON metadata catalog
+│   ├── preprocessing.yaml          # Preprocessing parameters and threshold settings
+│   ├── preprocessing_log.json      # Logs of completed preprocessing jobs
+│   ├── srikakulam_boundary.geojson # Srikakulam boundary polygon (EPSG:4326)
+│   ├── statistics.json             # Statistical summaries of dataset distributions
+│   └── version.json                # Data version control tracking
+├── processed/
+│   ├── boundaries/
+│   │   ├── srikakulam_boundary.geojson     # Detailed administrative boundary
+│   │   └── srikakulam_boundary_web.geojson # Simplified boundary optimized for web rendering
+│   ├── facilities/
+│   │   └── srikakulam_facilities.geojson   # GeoJSON point features for shelters and hospitals
+│   ├── flood/
+│   │   └── srikakulam_flood_inundation.geojson # Satellite-derived flood inundation polygons
+│   ├── rainfall/
+│   │   └── coastal_rainfall_stats.json     # Summary statistics of coastal monsoonal precipitation
+│   ├── roads/
+│   │   ├── srikakulam_arterial_graph.joblib# Serialized NetworkX arterial road graph
+│   │   ├── srikakulam_road_network.graphml # Full road network graph in XML GraphML format
+│   │   └── srikakulam_roads.geojson        # Vector road centerlines with attributes
+│   └── weather/
+│       ├── srikakulam_hourly_all_points.parquet # Cleaned hourly atmospheric reanalysis timeseries
+│       ├── sync_status.json                # Status of Open-Meteo telemetry synchronization
+│       ├── srk_ichchapuram.parquet / .csv  # Station timeseries for Ichchapuram
+│       ├── srk_kalingapatnam.parquet / .csv# Station timeseries for Kalingapatnam coastal station
+│       ├── srk_narasannapeta.parquet / .csv# Station timeseries for Narasannapeta
+│       ├── srk_palakonda.parquet / .csv    # Station timeseries for Palakonda
+│       ├── srk_palasa.parquet / .csv       # Station timeseries for Palasa
+│       ├── srk_sompeta.parquet / .csv      # Station timeseries for Sompeta
+│       ├── srk_tekkali.parquet / .csv      # Station timeseries for Tekkali
+│       └── srk_town.parquet / .csv         # Station timeseries for Srikakulam Town
+├── raw/
+│   ├── common/
+│   │   ├── disaster_detection/             # Detection classes and YOLO annotations
+│   │   ├── historical_disaster_data/       # Historical records for floods, earthquakes, and fires
+│   │   ├── population/                     # Population density distribution tables
+│   │   ├── shelters/                       # Government relief shelter registry
+│   │   ├── traffic/                        # Baseline traffic count and road network files
+│   │   └── weather/                        # Raw weather station observation records
+│   └── weather/
+│       └── srk_*_2021_2025.json            # Raw JSON atmospheric dumps from Open-Meteo API
+└── reference/
+    ├── DEM1_SAR_DGE_30_...DEM              # Copernicus 30m Digital Elevation Model raw raster
+    ├── maps-master/                        # OpenStreetMap raster and vector styling rules
+    ├── planet_77.464_13.826_892f69a4.osm.pbf# OpenStreetMap protocol buffer extract for AP
+    ├── rainfall_tel_hr_andhra_pradesh_sw_ap_2021_2025.csv # 64,510 ground-truth telemetry records
+    └── S1A_IW_GRDH_...SAFE/                # Raw Sentinel-1A SAR satellite product directories
+
+----------------------------------------------------------------------------------------------------
+4.13 SYSTEM DOCUMENTATION & RESEARCH NOTEBOOKS
+----------------------------------------------------------------------------------------------------
+Path: QuantumVision/docs/ and QuantumVision/notebooks/
+├── docs/
+│   ├── api_documentation.md        # RESTful API endpoint specifications, parameters, and payloads
+│   ├── architecture.md             # System architecture, subsystem decoupling, data flow diagrams
+│   ├── dataset_documentation.md    # Source attribution, spatial extents, and preprocessing rules
+│   ├── gis_workflow.md             # GIS ingestion and transformation pipeline documentation
+│   ├── model_documentation.md      # AI/ML and quantum model documentation
+│   ├── routing_documentation.md    # Evacuation routing algorithm and penalty weighting specs
+│   ├── simulation_documentation.md # Hydraulic simulation equations and parameters
+│   └── figures/quantum/
+│       ├── qnn_circuit.png / .txt  # Rendered circuit diagram and ASCII schematic for QNN
+│       └── vqc_circuit.png / .txt  # Rendered circuit diagram and ASCII schematic for VQC
+└── notebooks/
+    ├── 01_data_exploration.ipynb   # Exploratory data analysis of telemetry rainfall and DEM
+    ├── 02_flood_features.ipynb     # Engineering SAR backscatter ratios and topographical features
+    ├── 03_cyclone_features.ipynb   # Cyclone track, central pressure, and wind speed modeling
+    ├── 04_risk_analysis.ipynb      # Composite multi-criteria vulnerability index formulation
+    └── 05_route_analysis.ipynb     # Graph-based evacuation path optimization experiments
+
+
+====================================================================================================
+5. SOFTWARE, FRAMEWORK & LIBRARY INVENTORY
+====================================================================================================
+
+5.1 BACKEND PYTHON DEPENDENCIES
+----------------------------------------------------------------------------------------------------
+- fastapi (>=0.100.0)       : Asynchronous web framework for high-throughput RESTful endpoints
+- uvicorn[standard]         : Production ASGI server with uvloop event loop
+- pydantic (>=2.0.0)        : Strict data modeling, schema definition, and runtime validation
+- pydantic-settings         : Environment variable loading and configuration management
+- sqlalchemy (>=2.0.0)      : Object-Relational Mapping (ORM) and SQL database abstraction
+- python-jose[cryptography] : JSON Web Token (JWT) signing, verification, and encryption
+- passlib[bcrypt] / bcrypt  : Cryptographic salt generation and password hashing
+- numpy (>=1.24.0)          : High-performance multidimensional array math
+- scipy (>=1.10.0)          : Scientific routines, spatial distance metrics, and optimization
+- pandas (>=2.0.0)          : Data manipulation, chronological time-series grouping, and indexing
+- geopandas (>=0.13.0)      : Geospatial vector data processing and GeoJSON serialization
+- rasterio (>=1.3.0)        : Geospatial raster I/O for Digital Elevation Models (DEM) and GeoTIFFs
+- shapely (>=2.0.0)         : Computational geometry, point-in-polygon tests, and spatial buffers
+- pyproj (>=3.6.0)          : Cartographic projections and Coordinate Reference System (CRS) transformations
+- scikit-learn (>=1.3.0)    : Classical ML algorithms (Random Forest, scalers, cross-validation, metrics)
+- xgboost (>=2.0.0)         : Gradient boosted decision trees for classification and regression
+- torch (>=2.0.0)           : Deep learning tensor computations and GPU execution backends
+- pennylane (>=0.30.0)      : Quantum differentiable programming, VQC, and QNN circuit simulation
+- qiskit (>=0.43.0)         : Quantum circuit representation and statevector simulation
+- networkx (>=3.1)          : Graph theory data structures for road networks and pathfinding algorithms
+- websockets (>=11.0)       : Full-duplex real-time communication for telemetry streams
+- requests (>=2.30.0)       : HTTP requests for external weather API queries
+- pytest (>=7.3.0)          : Unit, integration, and endpoint testing harness
+- joblib                    : High-efficiency serialization for machine learning models and graphs
+
+5.2 FRONTEND JAVASCRIPT & NODE.JS DEPENDENCIES
+----------------------------------------------------------------------------------------------------
+- react (^19.2.8)           : Core user interface component library
+- react-dom (^19.2.8)       : React DOM rendering engine
+- react-router-dom (^7.18.2): Declarative client-side routing and layout management
+- vite (^8.2.0)             : Next-generation fast frontend bundler and development server
+- cesium (^1.145.0)         : World-class 3D geospatial globe and terrain visualization engine
+- resium (^1.26.0)          : React declarative component bindings for CesiumJS
+- vite-plugin-cesium        : Build-time asset optimization and base URL management for Cesium
+- leaflet (^1.9.4)          : Lightweight 2D interactive mapping library
+- react-leaflet (^5.0.0)    : React bindings for Leaflet map elements and GeoJSON overlays
+- maplibre-gl (^6.11.2)     : Vector tile map rendering with WebGL
+- tailwindcss (^4.3.3)      : Utility-first CSS framework for modern cyberpunk responsive design
+- recharts (^3.10.1)        : Composable charting library for rainfall and model evaluation metrics
+- lucide-react (^1.33.0)    : Comprehensive icon set for emergency, weather, and navigation UI
+- axios (^1.19.0)           : Promise-based HTTP client for REST API communication
+- socket.io-client (^4.8.3) : WebSocket client for live telemetry and simulation event sync
+- clsx / tailwind-merge     : Dynamic CSS class composition and deduplication utilities
+
+====================================================================================================
+DOCUMENT GENERATED: October 2026
+WORKSPACE: C:\Users\nanir\OneDrive\Desktop\GUNA MAIN PROJECT
+STATUS: COMPLETE, VALIDATED, AND AUDITED AGAINST CODEBASE
+====================================================================================================
+

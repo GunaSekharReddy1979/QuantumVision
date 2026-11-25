@@ -1,0 +1,230 @@
+{
+  "pipeline_version": "2.0.0",
+  "target": "Flood Risk Event (Binary with 4-Tier Severity Mapping)",
+  "classes": [
+    "LOW",
+    "MODERATE",
+    "HIGH",
+    "SEVERE"
+  ],
+  "data_validation": {
+    "dataset_name": "Andhra Pradesh Surface Water Telemetry Hourly Rainfall",
+    "total_hourly_records": 64510,
+    "daily_records_count": 11284,
+    "period_start": "2021-01-01",
+    "period_end": "2025-12-28",
+    "stations_count": 36,
+    "districts_count": 18,
+    "missing_invalid_pct": 0.08,
+    "temporal_resolution": "Hourly raw, aggregated Daily",
+    "geographic_coverage": "Andhra Pradesh (Coastal, Rayalaseema & North-East)",
+    "status": "VALIDATED & READY"
+  },
+  "chronological_split": {
+    "train_period": "2021-01-01 to 2023-12-31",
+    "train_samples": 5502,
+    "val_period": "2024-01-01 to 2024-12-31",
+    "val_samples": 3769,
+    "test_period": "2025-01-01 to 2025-12-31",
+    "test_samples": 2013
+  },
+  "model_performance": {
+    "random_forest": {
+      "model": "Random Forest",
+      "type": "Classical ML Ensemble",
+      "accuracy": 99.55,
+      "precision": 99.0,
+      "recall": 99.2,
+      "f1_score": 99.1,
+      "roc_auc": 99.99,
+      "confusion_matrix": [
+        [
+          1511,
+          5
+        ],
+        [
+          4,
+          493
+        ]
+      ]
+    },
+    "xgboost": {
+      "model": "XGBoost",
+      "type": "Gradient Boosted Decision Trees",
+      "accuracy": 99.9,
+      "precision": 99.6,
+      "recall": 100.0,
+      "f1_score": 99.8,
+      "roc_auc": 100.0,
+      "confusion_matrix": [
+        [
+          1514,
+          2
+        ],
+        [
+          0,
+          497
+        ]
+      ]
+    },
+    "best_model": "XGBoost"
+  },
+  "feature_importance": [
+    {
+      "feature": "rolling_mean_7d_mm",
+      "display_name": "Rolling Mean 7D Mm",
+      "xgboost_importance": 58.11,
+      "rf_importance": 23.55,
+      "combined_importance": 40.83
+    },
+    {
+      "feature": "cum_7d_rainfall_mm",
+      "display_name": "Cum 7D Rainfall Mm",
+      "xgboost_importance": 15.96,
+      "rf_importance": 23.21,
+      "combined_importance": 19.59
+    },
+    {
+      "feature": "rolling_max_7d_mm",
+      "display_name": "Rolling Max 7D Mm",
+      "xgboost_importance": 6.85,
+      "rf_importance": 12.38,
+      "combined_importance": 9.61
+    },
+    {
+      "feature": "rainfall_std_7d",
+      "display_name": "Rainfall Std 7D",
+      "xgboost_importance": 11.01,
+      "rf_importance": 7.59,
+      "combined_importance": 9.3
+    },
+    {
+      "feature": "cum_3d_rainfall_mm",
+      "display_name": "Cum 3D Rainfall Mm",
+      "xgboost_importance": 1.87,
+      "rf_importance": 12.02,
+      "combined_importance": 6.94
+    },
+    {
+      "feature": "daily_rainfall_mm",
+      "display_name": "Daily Rainfall Mm",
+      "xgboost_importance": 3.63,
+      "rf_importance": 5.58,
+      "combined_importance": 4.61
+    },
+    {
+      "feature": "cum_14d_rainfall_mm",
+      "display_name": "Cum 14D Rainfall Mm",
+      "xgboost_importance": 0.42,
+      "rf_importance": 4.71,
+      "combined_importance": 2.57
+    },
+    {
+      "feature": "max_hourly_intensity",
+      "display_name": "Max Hourly Intensity",
+      "xgboost_importance": 0.53,
+      "rf_importance": 3.18,
+      "combined_importance": 1.86
+    },
+    {
+      "feature": "prev_day_rainfall_mm",
+      "display_name": "Prev Day Rainfall Mm",
+      "xgboost_importance": 0.84,
+      "rf_importance": 2.23,
+      "combined_importance": 1.53
+    },
+    {
+      "feature": "rainfall_change_mm",
+      "display_name": "Rainfall Change Mm",
+      "xgboost_importance": 0.46,
+      "rf_importance": 1.38,
+      "combined_importance": 0.92
+    },
+    {
+      "feature": "humidity_pct",
+      "display_name": "Humidity Pct",
+      "xgboost_importance": 0.06,
+      "rf_importance": 1.34,
+      "combined_importance": 0.7
+    },
+    {
+      "feature": "surface_pressure_hpa",
+      "display_name": "Surface Pressure Hpa",
+      "xgboost_importance": 0.02,
+      "rf_importance": 1.37,
+      "combined_importance": 0.69
+    },
+    {
+      "feature": "wind_speed_kmh",
+      "display_name": "Wind Speed Kmh",
+      "xgboost_importance": 0.16,
+      "rf_importance": 0.98,
+      "combined_importance": 0.57
+    },
+    {
+      "feature": "temperature_c",
+      "display_name": "Temperature C",
+      "xgboost_importance": 0.09,
+      "rf_importance": 0.17,
+      "combined_importance": 0.13
+    },
+    {
+      "feature": "day_of_year",
+      "display_name": "Day Of Year",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.09,
+      "combined_importance": 0.05
+    },
+    {
+      "feature": "day",
+      "display_name": "Day",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.07,
+      "combined_importance": 0.04
+    },
+    {
+      "feature": "month",
+      "display_name": "Month",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.05,
+      "combined_importance": 0.02
+    },
+    {
+      "feature": "Longitude",
+      "display_name": "Longitude",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.04,
+      "combined_importance": 0.02
+    },
+    {
+      "feature": "season",
+      "display_name": "Season",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.02,
+      "combined_importance": 0.01
+    },
+    {
+      "feature": "Latitude",
+      "display_name": "Latitude",
+      "xgboost_importance": 0.0,
+      "rf_importance": 0.03,
+      "combined_importance": 0.01
+    }
+  ],
+  "quantum_models": {
+    "vqc": {
+      "name": "Variational Quantum Classifier (VQC)",
+      "qubits": 4,
+      "framework": "PennyLane + Qiskit Statevector",
+      "accuracy": 89.2,
+      "status": "SIMULATION / BENCHMARK"
+    },
+    "qnn": {
+      "name": "Quantum Neural Network (QNN)",
+      "qubits": 4,
+      "framework": "PennyLane Strongly Entangling Layers",
+      "accuracy": 91.5,
+      "status": "SIMULATION / BENCHMARK"
+    }
+  }
+}

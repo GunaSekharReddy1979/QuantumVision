@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    {
+      "id": "ds_flood_classification_v2",
+      "name": "flood_training_samples.csv",
+      "version": "2.0",
+      "samples": 5000,
+      "features": 11,
+      "target": "flood_label",
+      "study_area": "Srikakulam District, Andhra Pradesh",
+      "status": "VALIDATED_EXPANDED",
+      "last_modified": "2026-11-05T14:34:40.213300+00:00"
+    },
+    {
+      "id": "ds_flood_classification_v1_baseline",
+      "name": "flood_training_samples_1500_baseline.csv",
+      "version": "1.0",
+      "samples": 1500,
+      "features": 11,
+      "target": "flood_label",
+      "study_area": "Srikakulam District, Andhra Pradesh",
+      "status": "BASELINE_ARCHIVED",
+      "last_modified": "2026-11-05T14:34:40.213300+00:00"
+    }
+  ]
+}

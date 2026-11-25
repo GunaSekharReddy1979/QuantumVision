@@ -1,0 +1,5 @@
+Model Name,Model Type,MAE (mm),RMSE (mm),R2 Score,Heavy Rain MAE (mm),Chronological Test Split,Test Samples,Operational Status
+Persistence Baseline (t-24h),Heuristic Baseline,4.803,10.806,-0.1486,22.796,2024-01-01 to 2025-12-31,70080,Baseline Reference
+Random Forest Regressor,Ensemble Trees,4.192,8.71,0.2537,22.769,2024-01-01 to 2025-12-31,70080,Secondary Model
+XGBoost Regressor,Gradient Boosted Trees,4.115,8.552,0.2806,22.791,2024-01-01 to 2025-12-31,70080,Best / Operational (20.9% RMSE Reduction)
+Quantum VQC Regressor,Variational Quantum Circuit,N/A,N/A,N/A,N/A,N/A,N/A,EXPERIMENTAL / NOT_IMPLEMENTED (Binary Classifier Only)

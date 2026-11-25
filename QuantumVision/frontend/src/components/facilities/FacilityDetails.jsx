@@ -1,0 +1,1 @@
+export default function FacilityDetails() { return <div>Facility Details</div>; }

@@ -1,0 +1,3533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam District EOC Command Center",
+        "type": "EOC Command",
+        "height": 36,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89505,
+              18.2955
+            ],
+            [
+              83.89855,
+              18.2955
+            ],
+            [
+              83.89855,
+              18.2983
+            ],
+            [
+              83.89505,
+              18.2983
+            ],
+            [
+              83.89505,
+              18.2955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam District EOC Command Center - Wing A",
+        "type": "EOC Command",
+        "height": 27,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8988,
+              18.2974
+            ],
+            [
+              83.9008,
+              18.2974
+            ],
+            [
+              83.9008,
+              18.299400000000002
+            ],
+            [
+              83.8988,
+              18.299400000000002
+            ],
+            [
+              83.8988,
+              18.2974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam District EOC Command Center - Wing B",
+        "type": "EOC Command",
+        "height": 23,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8928,
+              18.2944
+            ],
+            [
+              83.8948,
+              18.2944
+            ],
+            [
+              83.8948,
+              18.296400000000002
+            ],
+            [
+              83.8928,
+              18.296400000000002
+            ],
+            [
+              83.8928,
+              18.2944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RIMS Govt General Hospital Complex",
+        "type": "Hospital",
+        "height": 30,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90845,
+              18.3111
+            ],
+            [
+              83.91195,
+              18.3111
+            ],
+            [
+              83.91195,
+              18.3139
+            ],
+            [
+              83.90845,
+              18.3139
+            ],
+            [
+              83.90845,
+              18.3111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RIMS Govt General Hospital Complex - Wing A",
+        "type": "Hospital",
+        "height": 23,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9122,
+              18.313
+            ],
+            [
+              83.91420000000001,
+              18.313
+            ],
+            [
+              83.91420000000001,
+              18.315
+            ],
+            [
+              83.9122,
+              18.315
+            ],
+            [
+              83.9122,
+              18.313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RIMS Govt General Hospital Complex - Wing B",
+        "type": "Hospital",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9062,
+              18.31
+            ],
+            [
+              83.90820000000001,
+              18.31
+            ],
+            [
+              83.90820000000001,
+              18.312
+            ],
+            [
+              83.9062,
+              18.312
+            ],
+            [
+              83.9062,
+              18.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam Collectorate & Disaster Wing",
+        "type": "Government",
+        "height": 26,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89225,
+              18.2971
+            ],
+            [
+              83.89575,
+              18.2971
+            ],
+            [
+              83.89575,
+              18.2999
+            ],
+            [
+              83.89225,
+              18.2999
+            ],
+            [
+              83.89225,
+              18.2971
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam Collectorate & Disaster Wing - Wing A",
+        "type": "Government",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.896,
+              18.299
+            ],
+            [
+              83.89800000000001,
+              18.299
+            ],
+            [
+              83.89800000000001,
+              18.301000000000002
+            ],
+            [
+              83.896,
+              18.301000000000002
+            ],
+            [
+              83.896,
+              18.299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Srikakulam Collectorate & Disaster Wing - Wing B",
+        "type": "Government",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89,
+              18.296
+            ],
+            [
+              83.89200000000001,
+              18.296
+            ],
+            [
+              83.89200000000001,
+              18.298000000000002
+            ],
+            [
+              83.89,
+              18.298000000000002
+            ],
+            [
+              83.89,
+              18.296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDRF Coastal Emergency Response Depot",
+        "type": "Emergency",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88925,
+              18.2916
+            ],
+            [
+              83.89275,
+              18.2916
+            ],
+            [
+              83.89275,
+              18.2944
+            ],
+            [
+              83.88925,
+              18.2944
+            ],
+            [
+              83.88925,
+              18.2916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDRF Coastal Emergency Response Depot - Wing A",
+        "type": "Emergency",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.893,
+              18.293499999999998
+            ],
+            [
+              83.89500000000001,
+              18.293499999999998
+            ],
+            [
+              83.89500000000001,
+              18.2955
+            ],
+            [
+              83.893,
+              18.2955
+            ],
+            [
+              83.893,
+              18.293499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDRF Coastal Emergency Response Depot - Wing B",
+        "type": "Emergency",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.887,
+              18.290499999999998
+            ],
+            [
+              83.88900000000001,
+              18.290499999999998
+            ],
+            [
+              83.88900000000001,
+              18.2925
+            ],
+            [
+              83.887,
+              18.2925
+            ],
+            [
+              83.887,
+              18.290499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali Area Hospital & Evacuation Center",
+        "type": "Hospital",
+        "height": 24,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.23825,
+              18.6166
+            ],
+            [
+              84.24175,
+              18.6166
+            ],
+            [
+              84.24175,
+              18.6194
+            ],
+            [
+              84.23825,
+              18.6194
+            ],
+            [
+              84.23825,
+              18.6166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali Area Hospital & Evacuation Center - Wing A",
+        "type": "Hospital",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.24199999999999,
+              18.618499999999997
+            ],
+            [
+              84.244,
+              18.618499999999997
+            ],
+            [
+              84.244,
+              18.6205
+            ],
+            [
+              84.24199999999999,
+              18.6205
+            ],
+            [
+              84.24199999999999,
+              18.618499999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali Area Hospital & Evacuation Center - Wing B",
+        "type": "Hospital",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.23599999999999,
+              18.615499999999997
+            ],
+            [
+              84.238,
+              18.615499999999997
+            ],
+            [
+              84.238,
+              18.6175
+            ],
+            [
+              84.23599999999999,
+              18.6175
+            ],
+            [
+              84.23599999999999,
+              18.615499999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali MPCS Evacuation Hub",
+        "type": "Shelter",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.22325,
+              18.6036
+            ],
+            [
+              84.22675,
+              18.6036
+            ],
+            [
+              84.22675,
+              18.6064
+            ],
+            [
+              84.22325,
+              18.6064
+            ],
+            [
+              84.22325,
+              18.6036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali MPCS Evacuation Hub - Wing A",
+        "type": "Shelter",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.22699999999999,
+              18.6055
+            ],
+            [
+              84.229,
+              18.6055
+            ],
+            [
+              84.229,
+              18.6075
+            ],
+            [
+              84.22699999999999,
+              18.6075
+            ],
+            [
+              84.22699999999999,
+              18.6055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tekkali MPCS Evacuation Hub - Wing B",
+        "type": "Shelter",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.22099999999999,
+              18.6025
+            ],
+            [
+              84.223,
+              18.6025
+            ],
+            [
+              84.223,
+              18.6045
+            ],
+            [
+              84.22099999999999,
+              18.6045
+            ],
+            [
+              84.22099999999999,
+              18.6025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Cyclone Relief Shelter Complex",
+        "type": "Shelter",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.42325,
+              18.7566
+            ],
+            [
+              84.42675,
+              18.7566
+            ],
+            [
+              84.42675,
+              18.7594
+            ],
+            [
+              84.42325,
+              18.7594
+            ],
+            [
+              84.42325,
+              18.7566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Cyclone Relief Shelter Complex - Wing A",
+        "type": "Shelter",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.42699999999999,
+              18.758499999999998
+            ],
+            [
+              84.429,
+              18.758499999999998
+            ],
+            [
+              84.429,
+              18.7605
+            ],
+            [
+              84.42699999999999,
+              18.7605
+            ],
+            [
+              84.42699999999999,
+              18.758499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Cyclone Relief Shelter Complex - Wing B",
+        "type": "Shelter",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.42099999999999,
+              18.755499999999998
+            ],
+            [
+              84.423,
+              18.755499999999998
+            ],
+            [
+              84.423,
+              18.7575
+            ],
+            [
+              84.42099999999999,
+              18.7575
+            ],
+            [
+              84.42099999999999,
+              18.755499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Community Health Center",
+        "type": "Hospital",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.40825,
+              18.7736
+            ],
+            [
+              84.41175,
+              18.7736
+            ],
+            [
+              84.41175,
+              18.7764
+            ],
+            [
+              84.40825,
+              18.7764
+            ],
+            [
+              84.40825,
+              18.7736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Community Health Center - Wing A",
+        "type": "Hospital",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.41199999999999,
+              18.775499999999997
+            ],
+            [
+              84.414,
+              18.775499999999997
+            ],
+            [
+              84.414,
+              18.7775
+            ],
+            [
+              84.41199999999999,
+              18.7775
+            ],
+            [
+              84.41199999999999,
+              18.775499999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palasa Community Health Center - Wing B",
+        "type": "Hospital",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.40599999999999,
+              18.772499999999997
+            ],
+            [
+              84.408,
+              18.772499999999997
+            ],
+            [
+              84.408,
+              18.7745
+            ],
+            [
+              84.40599999999999,
+              18.7745
+            ],
+            [
+              84.40599999999999,
+              18.772499999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandasa High School Evacuation Center",
+        "type": "Shelter",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.47325,
+              18.8586
+            ],
+            [
+              84.47675,
+              18.8586
+            ],
+            [
+              84.47675,
+              18.8614
+            ],
+            [
+              84.47325,
+              18.8614
+            ],
+            [
+              84.47325,
+              18.8586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandasa High School Evacuation Center - Wing A",
+        "type": "Shelter",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.47699999999999,
+              18.8605
+            ],
+            [
+              84.479,
+              18.8605
+            ],
+            [
+              84.479,
+              18.8625
+            ],
+            [
+              84.47699999999999,
+              18.8625
+            ],
+            [
+              84.47699999999999,
+              18.8605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandasa High School Evacuation Center - Wing B",
+        "type": "Shelter",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.47099999999999,
+              18.857499999999998
+            ],
+            [
+              84.473,
+              18.857499999999998
+            ],
+            [
+              84.473,
+              18.8595
+            ],
+            [
+              84.47099999999999,
+              18.8595
+            ],
+            [
+              84.47099999999999,
+              18.857499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ichchapuram Multi-Purpose Shelter",
+        "type": "Shelter",
+        "height": 25,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.67325,
+              19.1086
+            ],
+            [
+              84.67675,
+              19.1086
+            ],
+            [
+              84.67675,
+              19.1114
+            ],
+            [
+              84.67325,
+              19.1114
+            ],
+            [
+              84.67325,
+              19.1086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ichchapuram Multi-Purpose Shelter - Wing A",
+        "type": "Shelter",
+        "height": 19,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.67699999999999,
+              19.1105
+            ],
+            [
+              84.679,
+              19.1105
+            ],
+            [
+              84.679,
+              19.1125
+            ],
+            [
+              84.67699999999999,
+              19.1125
+            ],
+            [
+              84.67699999999999,
+              19.1105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ichchapuram Multi-Purpose Shelter - Wing B",
+        "type": "Shelter",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.67099999999999,
+              19.107499999999998
+            ],
+            [
+              84.673,
+              19.107499999999998
+            ],
+            [
+              84.673,
+              19.1095
+            ],
+            [
+              84.67099999999999,
+              19.1095
+            ],
+            [
+              84.67099999999999,
+              19.107499999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narasannapeta Primary Care Depot",
+        "type": "Hospital",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.04825,
+              18.4236
+            ],
+            [
+              84.05175,
+              18.4236
+            ],
+            [
+              84.05175,
+              18.4264
+            ],
+            [
+              84.04825,
+              18.4264
+            ],
+            [
+              84.04825,
+              18.4236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narasannapeta Primary Care Depot - Wing A",
+        "type": "Hospital",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.05199999999999,
+              18.4255
+            ],
+            [
+              84.054,
+              18.4255
+            ],
+            [
+              84.054,
+              18.427500000000002
+            ],
+            [
+              84.05199999999999,
+              18.427500000000002
+            ],
+            [
+              84.05199999999999,
+              18.4255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narasannapeta Primary Care Depot - Wing B",
+        "type": "Hospital",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.04599999999999,
+              18.4225
+            ],
+            [
+              84.048,
+              18.4225
+            ],
+            [
+              84.048,
+              18.424500000000002
+            ],
+            [
+              84.04599999999999,
+              18.424500000000002
+            ],
+            [
+              84.04599999999999,
+              18.4225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalingapatnam Coastal Light Facility",
+        "type": "Coastal Shelter",
+        "height": 28,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.11825,
+              18.3386
+            ],
+            [
+              84.12175,
+              18.3386
+            ],
+            [
+              84.12175,
+              18.3414
+            ],
+            [
+              84.11825,
+              18.3414
+            ],
+            [
+              84.11825,
+              18.3386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalingapatnam Coastal Light Facility - Wing A",
+        "type": "Coastal Shelter",
+        "height": 21,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.122,
+              18.3405
+            ],
+            [
+              84.12400000000001,
+              18.3405
+            ],
+            [
+              84.12400000000001,
+              18.3425
+            ],
+            [
+              84.122,
+              18.3425
+            ],
+            [
+              84.122,
+              18.3405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalingapatnam Coastal Light Facility - Wing B",
+        "type": "Coastal Shelter",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.116,
+              18.3375
+            ],
+            [
+              84.11800000000001,
+              18.3375
+            ],
+            [
+              84.11800000000001,
+              18.3395
+            ],
+            [
+              84.116,
+              18.3395
+            ],
+            [
+              84.116,
+              18.3375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.872863427082,
+              18.28305390225434
+            ],
+            [
+              83.875663427082,
+              18.28305390225434
+            ],
+            [
+              83.875663427082,
+              18.285253902254343
+            ],
+            [
+              83.872863427082,
+              18.285253902254343
+            ],
+            [
+              83.872863427082,
+              18.28305390225434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87438935824662,
+              18.28776017028665
+            ],
+            [
+              83.87718935824662,
+              18.28776017028665
+            ],
+            [
+              83.87718935824662,
+              18.28996017028665
+            ],
+            [
+              83.87438935824662,
+              18.28996017028665
+            ],
+            [
+              83.87438935824662,
+              18.28776017028665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 26,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87264319750469,
+              18.291583662185463
+            ],
+            [
+              83.8754431975047,
+              18.291583662185463
+            ],
+            [
+              83.8754431975047,
+              18.293783662185465
+            ],
+            [
+              83.87264319750469,
+              18.293783662185465
+            ],
+            [
+              83.87264319750469,
+              18.291583662185463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87339999999999,
+              18.295146356379135
+            ],
+            [
+              83.8762,
+              18.295146356379135
+            ],
+            [
+              83.8762,
+              18.297346356379137
+            ],
+            [
+              83.87339999999999,
+              18.297346356379137
+            ],
+            [
+              83.87339999999999,
+              18.295146356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87415680249529,
+              18.2993100075034
+            ],
+            [
+              83.8769568024953,
+              18.2993100075034
+            ],
+            [
+              83.8769568024953,
+              18.301510007503403
+            ],
+            [
+              83.87415680249529,
+              18.301510007503403
+            ],
+            [
+              83.87415680249529,
+              18.2993100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87241064175336,
+              18.304383853163454
+            ],
+            [
+              83.87521064175337,
+              18.304383853163454
+            ],
+            [
+              83.87521064175337,
+              18.306583853163456
+            ],
+            [
+              83.87241064175336,
+              18.306583853163456
+            ],
+            [
+              83.87241064175336,
+              18.304383853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 10,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87393657291798,
+              18.30984030230587
+            ],
+            [
+              83.87673657291799,
+              18.30984030230587
+            ],
+            [
+              83.87673657291799,
+              18.31204030230587
+            ],
+            [
+              83.87393657291798,
+              18.31204030230587
+            ],
+            [
+              83.87393657291798,
+              18.30984030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87931211848525,
+              18.28326017028665
+            ],
+            [
+              83.88211211848525,
+              18.28326017028665
+            ],
+            [
+              83.88211211848525,
+              18.28546017028665
+            ],
+            [
+              83.87931211848525,
+              18.28546017028665
+            ],
+            [
+              83.87931211848525,
+              18.28326017028665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 27,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8786205845018,
+              18.287083662185463
+            ],
+            [
+              83.88142058450181,
+              18.287083662185463
+            ],
+            [
+              83.88142058450181,
+              18.289283662185465
+            ],
+            [
+              83.8786205845018,
+              18.289283662185465
+            ],
+            [
+              83.8786205845018,
+              18.287083662185463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 23,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87904112000807,
+              18.290646356379135
+            ],
+            [
+              83.88184112000808,
+              18.290646356379135
+            ],
+            [
+              83.88184112000808,
+              18.292846356379137
+            ],
+            [
+              83.87904112000807,
+              18.292846356379137
+            ],
+            [
+              83.87904112000807,
+              18.290646356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 19,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8789,
+              18.2948100075034
+            ],
+            [
+              83.88170000000001,
+              18.2948100075034
+            ],
+            [
+              83.88170000000001,
+              18.297010007503403
+            ],
+            [
+              83.8789,
+              18.297010007503403
+            ],
+            [
+              83.8789,
+              18.2948100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87875887999193,
+              18.299883853163454
+            ],
+            [
+              83.88155887999194,
+              18.299883853163454
+            ],
+            [
+              83.88155887999194,
+              18.302083853163456
+            ],
+            [
+              83.87875887999193,
+              18.302083853163456
+            ],
+            [
+              83.87875887999193,
+              18.299883853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 11,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8791794154982,
+              18.30534030230587
+            ],
+            [
+              83.88197941549821,
+              18.30534030230587
+            ],
+            [
+              83.88197941549821,
+              18.30754030230587
+            ],
+            [
+              83.8791794154982,
+              18.30754030230587
+            ],
+            [
+              83.8791794154982,
+              18.30534030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.87848788151476,
+              18.3103
+            ],
+            [
+              83.88128788151477,
+              18.3103
+            ],
+            [
+              83.88128788151477,
+              18.312500000000004
+            ],
+            [
+              83.87848788151476,
+              18.312500000000004
+            ],
+            [
+              83.87848788151476,
+              18.3103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 10,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8841205845018,
+              18.282583662185463
+            ],
+            [
+              83.88692058450181,
+              18.282583662185463
+            ],
+            [
+              83.88692058450181,
+              18.284783662185465
+            ],
+            [
+              83.8841205845018,
+              18.284783662185465
+            ],
+            [
+              83.8841205845018,
+              18.282583662185463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 24,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8836431975047,
+              18.286146356379135
+            ],
+            [
+              83.8864431975047,
+              18.286146356379135
+            ],
+            [
+              83.8864431975047,
+              18.288346356379137
+            ],
+            [
+              83.8836431975047,
+              18.288346356379137
+            ],
+            [
+              83.8836431975047,
+              18.286146356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88530929742683,
+              18.2903100075034
+            ],
+            [
+              83.88810929742684,
+              18.2903100075034
+            ],
+            [
+              83.88810929742684,
+              18.292510007503402
+            ],
+            [
+              83.88530929742683,
+              18.292510007503402
+            ],
+            [
+              83.88530929742683,
+              18.2903100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8844,
+              18.295383853163454
+            ],
+            [
+              83.8872,
+              18.295383853163454
+            ],
+            [
+              83.8872,
+              18.297583853163456
+            ],
+            [
+              83.8844,
+              18.297583853163456
+            ],
+            [
+              83.8844,
+              18.295383853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88349070257317,
+              18.30084030230587
+            ],
+            [
+              83.88629070257318,
+              18.30084030230587
+            ],
+            [
+              83.88629070257318,
+              18.30304030230587
+            ],
+            [
+              83.88349070257317,
+              18.30304030230587
+            ],
+            [
+              83.88349070257317,
+              18.30084030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8851568024953,
+              18.3058
+            ],
+            [
+              83.88795680249531,
+              18.3058
+            ],
+            [
+              83.88795680249531,
+              18.308000000000003
+            ],
+            [
+              83.8851568024953,
+              18.308000000000003
+            ],
+            [
+              83.8851568024953,
+              18.3058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8846794154982,
+              18.30984030230587
+            ],
+            [
+              83.8874794154982,
+              18.30984030230587
+            ],
+            [
+              83.8874794154982,
+              18.31204030230587
+            ],
+            [
+              83.8846794154982,
+              18.31204030230587
+            ],
+            [
+              83.8846794154982,
+              18.30984030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 25,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89004112000806,
+              18.281646356379134
+            ],
+            [
+              83.89284112000807,
+              18.281646356379134
+            ],
+            [
+              83.89284112000807,
+              18.283846356379136
+            ],
+            [
+              83.89004112000806,
+              18.283846356379136
+            ],
+            [
+              83.89004112000806,
+              18.281646356379134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 21,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89080929742683,
+              18.2858100075034
+            ],
+            [
+              83.89360929742683,
+              18.2858100075034
+            ],
+            [
+              83.89360929742683,
+              18.288010007503402
+            ],
+            [
+              83.89080929742683,
+              18.288010007503402
+            ],
+            [
+              83.89080929742683,
+              18.2858100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8907414709848,
+              18.290883853163454
+            ],
+            [
+              83.89354147098481,
+              18.290883853163454
+            ],
+            [
+              83.89354147098481,
+              18.293083853163456
+            ],
+            [
+              83.8907414709848,
+              18.293083853163456
+            ],
+            [
+              83.8907414709848,
+              18.290883853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8899,
+              18.296340302305868
+            ],
+            [
+              83.8927,
+              18.296340302305868
+            ],
+            [
+              83.8927,
+              18.29854030230587
+            ],
+            [
+              83.8899,
+              18.29854030230587
+            ],
+            [
+              83.8899,
+              18.296340302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 11,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88905852901519,
+              18.3013
+            ],
+            [
+              83.8918585290152,
+              18.3013
+            ],
+            [
+              83.8918585290152,
+              18.303500000000003
+            ],
+            [
+              83.88905852901519,
+              18.303500000000003
+            ],
+            [
+              83.88905852901519,
+              18.3013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88899070257317,
+              18.30534030230587
+            ],
+            [
+              83.89179070257318,
+              18.30534030230587
+            ],
+            [
+              83.89179070257318,
+              18.30754030230587
+            ],
+            [
+              83.88899070257317,
+              18.30754030230587
+            ],
+            [
+              83.88899070257317,
+              18.30534030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 19,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.88975887999193,
+              18.308883853163454
+            ],
+            [
+              83.89255887999194,
+              18.308883853163454
+            ],
+            [
+              83.89255887999194,
+              18.311083853163456
+            ],
+            [
+              83.88975887999193,
+              18.311083853163456
+            ],
+            [
+              83.88975887999193,
+              18.308883853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.2813100075034
+            ],
+            [
+              83.8982,
+              18.2813100075034
+            ],
+            [
+              83.8982,
+              18.283510007503402
+            ],
+            [
+              83.8954,
+              18.283510007503402
+            ],
+            [
+              83.8954,
+              18.2813100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.286383853163453
+            ],
+            [
+              83.8982,
+              18.286383853163453
+            ],
+            [
+              83.8982,
+              18.288583853163455
+            ],
+            [
+              83.8954,
+              18.288583853163455
+            ],
+            [
+              83.8954,
+              18.286383853163453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.291840302305868
+            ],
+            [
+              83.8982,
+              18.291840302305868
+            ],
+            [
+              83.8982,
+              18.29404030230587
+            ],
+            [
+              83.8954,
+              18.29404030230587
+            ],
+            [
+              83.8954,
+              18.291840302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.30084030230587
+            ],
+            [
+              83.8982,
+              18.30084030230587
+            ],
+            [
+              83.8982,
+              18.30304030230587
+            ],
+            [
+              83.8954,
+              18.30304030230587
+            ],
+            [
+              83.8954,
+              18.30084030230587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.304383853163454
+            ],
+            [
+              83.8982,
+              18.304383853163454
+            ],
+            [
+              83.8982,
+              18.306583853163456
+            ],
+            [
+              83.8954,
+              18.306583853163456
+            ],
+            [
+              83.8954,
+              18.304383853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.8954,
+              18.3083100075034
+            ],
+            [
+              83.8982,
+              18.3083100075034
+            ],
+            [
+              83.8982,
+              18.310510007503403
+            ],
+            [
+              83.8954,
+              18.310510007503403
+            ],
+            [
+              83.8954,
+              18.3083100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 19,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90075887999193,
+              18.281883853163453
+            ],
+            [
+              83.90355887999193,
+              18.281883853163453
+            ],
+            [
+              83.90355887999193,
+              18.284083853163455
+            ],
+            [
+              83.90075887999193,
+              18.284083853163455
+            ],
+            [
+              83.90075887999193,
+              18.281883853163453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.89999070257316,
+              18.287340302305868
+            ],
+            [
+              83.90279070257317,
+              18.287340302305868
+            ],
+            [
+              83.90279070257317,
+              18.28954030230587
+            ],
+            [
+              83.89999070257316,
+              18.28954030230587
+            ],
+            [
+              83.89999070257316,
+              18.287340302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 11,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90005852901518,
+              18.2923
+            ],
+            [
+              83.90285852901519,
+              18.2923
+            ],
+            [
+              83.90285852901519,
+              18.294500000000003
+            ],
+            [
+              83.90005852901518,
+              18.294500000000003
+            ],
+            [
+              83.90005852901518,
+              18.2923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9009,
+              18.296340302305868
+            ],
+            [
+              83.9037,
+              18.296340302305868
+            ],
+            [
+              83.9037,
+              18.29854030230587
+            ],
+            [
+              83.9009,
+              18.29854030230587
+            ],
+            [
+              83.9009,
+              18.296340302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 17,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9017414709848,
+              18.299883853163454
+            ],
+            [
+              83.90454147098481,
+              18.299883853163454
+            ],
+            [
+              83.90454147098481,
+              18.302083853163456
+            ],
+            [
+              83.9017414709848,
+              18.302083853163456
+            ],
+            [
+              83.9017414709848,
+              18.299883853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 21,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90180929742682,
+              18.3038100075034
+            ],
+            [
+              83.90460929742683,
+              18.3038100075034
+            ],
+            [
+              83.90460929742683,
+              18.306010007503403
+            ],
+            [
+              83.90180929742682,
+              18.306010007503403
+            ],
+            [
+              83.90180929742682,
+              18.3038100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 25,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90104112000806,
+              18.308646356379136
+            ],
+            [
+              83.90384112000807,
+              18.308646356379136
+            ],
+            [
+              83.90384112000807,
+              18.310846356379137
+            ],
+            [
+              83.90104112000806,
+              18.310846356379137
+            ],
+            [
+              83.90104112000806,
+              18.308646356379136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90667941549819,
+              18.282840302305868
+            ],
+            [
+              83.9094794154982,
+              18.282840302305868
+            ],
+            [
+              83.9094794154982,
+              18.28504030230587
+            ],
+            [
+              83.90667941549819,
+              18.28504030230587
+            ],
+            [
+              83.90667941549819,
+              18.282840302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9071568024953,
+              18.2878
+            ],
+            [
+              83.9099568024953,
+              18.2878
+            ],
+            [
+              83.9099568024953,
+              18.290000000000003
+            ],
+            [
+              83.9071568024953,
+              18.290000000000003
+            ],
+            [
+              83.9071568024953,
+              18.2878
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90549070257316,
+              18.291840302305868
+            ],
+            [
+              83.90829070257317,
+              18.291840302305868
+            ],
+            [
+              83.90829070257317,
+              18.29404030230587
+            ],
+            [
+              83.90549070257316,
+              18.29404030230587
+            ],
+            [
+              83.90549070257316,
+              18.291840302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90639999999999,
+              18.295383853163454
+            ],
+            [
+              83.9092,
+              18.295383853163454
+            ],
+            [
+              83.9092,
+              18.297583853163456
+            ],
+            [
+              83.90639999999999,
+              18.297583853163456
+            ],
+            [
+              83.90639999999999,
+              18.295383853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 20,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90730929742682,
+              18.2993100075034
+            ],
+            [
+              83.91010929742683,
+              18.2993100075034
+            ],
+            [
+              83.91010929742683,
+              18.301510007503403
+            ],
+            [
+              83.90730929742682,
+              18.301510007503403
+            ],
+            [
+              83.90730929742682,
+              18.2993100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 24,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90564319750469,
+              18.304146356379135
+            ],
+            [
+              83.9084431975047,
+              18.304146356379135
+            ],
+            [
+              83.9084431975047,
+              18.306346356379137
+            ],
+            [
+              83.90564319750469,
+              18.306346356379137
+            ],
+            [
+              83.90564319750469,
+              18.304146356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 10,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.90612058450179,
+              18.309583662185464
+            ],
+            [
+              83.9089205845018,
+              18.309583662185464
+            ],
+            [
+              83.9089205845018,
+              18.311783662185466
+            ],
+            [
+              83.90612058450179,
+              18.311783662185466
+            ],
+            [
+              83.90612058450179,
+              18.309583662185464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91148788151474,
+              18.2833
+            ],
+            [
+              83.91428788151475,
+              18.2833
+            ],
+            [
+              83.91428788151475,
+              18.285500000000003
+            ],
+            [
+              83.91148788151474,
+              18.285500000000003
+            ],
+            [
+              83.91148788151474,
+              18.2833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 11,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91217941549819,
+              18.287340302305868
+            ],
+            [
+              83.9149794154982,
+              18.287340302305868
+            ],
+            [
+              83.9149794154982,
+              18.28954030230587
+            ],
+            [
+              83.91217941549819,
+              18.28954030230587
+            ],
+            [
+              83.91217941549819,
+              18.287340302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 15,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91175887999192,
+              18.290883853163454
+            ],
+            [
+              83.91455887999193,
+              18.290883853163454
+            ],
+            [
+              83.91455887999193,
+              18.293083853163456
+            ],
+            [
+              83.91175887999192,
+              18.293083853163456
+            ],
+            [
+              83.91175887999192,
+              18.290883853163454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 19,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91189999999999,
+              18.2948100075034
+            ],
+            [
+              83.9147,
+              18.2948100075034
+            ],
+            [
+              83.9147,
+              18.297010007503403
+            ],
+            [
+              83.91189999999999,
+              18.297010007503403
+            ],
+            [
+              83.91189999999999,
+              18.2948100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 23,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91204112000806,
+              18.299646356379135
+            ],
+            [
+              83.91484112000806,
+              18.299646356379135
+            ],
+            [
+              83.91484112000806,
+              18.301846356379137
+            ],
+            [
+              83.91204112000806,
+              18.301846356379137
+            ],
+            [
+              83.91204112000806,
+              18.299646356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 27,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91162058450179,
+              18.305083662185464
+            ],
+            [
+              83.9144205845018,
+              18.305083662185464
+            ],
+            [
+              83.9144205845018,
+              18.307283662185466
+            ],
+            [
+              83.91162058450179,
+              18.307283662185466
+            ],
+            [
+              83.91162058450179,
+              18.305083662185464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 13,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91231211848523,
+              18.31026017028665
+            ],
+            [
+              83.91511211848524,
+              18.31026017028665
+            ],
+            [
+              83.91511211848524,
+              18.312460170286652
+            ],
+            [
+              83.91231211848523,
+              18.312460170286652
+            ],
+            [
+              83.91231211848523,
+              18.31026017028665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 10,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.917936572918,
+              18.282840302305868
+            ],
+            [
+              83.920736572918,
+              18.282840302305868
+            ],
+            [
+              83.920736572918,
+              18.28504030230587
+            ],
+            [
+              83.917936572918,
+              18.28504030230587
+            ],
+            [
+              83.917936572918,
+              18.282840302305868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 14,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91641064175337,
+              18.286383853163453
+            ],
+            [
+              83.91921064175338,
+              18.286383853163453
+            ],
+            [
+              83.91921064175338,
+              18.288583853163455
+            ],
+            [
+              83.91641064175337,
+              18.288583853163455
+            ],
+            [
+              83.91641064175337,
+              18.286383853163453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 18,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9181568024953,
+              18.2903100075034
+            ],
+            [
+              83.92095680249531,
+              18.2903100075034
+            ],
+            [
+              83.92095680249531,
+              18.292510007503402
+            ],
+            [
+              83.9181568024953,
+              18.292510007503402
+            ],
+            [
+              83.9181568024953,
+              18.2903100075034
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 22,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9174,
+              18.295146356379135
+            ],
+            [
+              83.92020000000001,
+              18.295146356379135
+            ],
+            [
+              83.92020000000001,
+              18.297346356379137
+            ],
+            [
+              83.9174,
+              18.297346356379137
+            ],
+            [
+              83.9174,
+              18.295146356379135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 26,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.9166431975047,
+              18.300583662185463
+            ],
+            [
+              83.9194431975047,
+              18.300583662185463
+            ],
+            [
+              83.9194431975047,
+              18.302783662185465
+            ],
+            [
+              83.9166431975047,
+              18.302783662185465
+            ],
+            [
+              83.9166431975047,
+              18.300583662185463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 12,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.91838935824663,
+              18.30576017028665
+            ],
+            [
+              83.92118935824664,
+              18.30576017028665
+            ],
+            [
+              83.92118935824664,
+              18.307960170286652
+            ],
+            [
+              83.91838935824663,
+              18.307960170286652
+            ],
+            [
+              83.91838935824663,
+              18.30576017028665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Municipal Structure",
+        "type": "Urban Block",
+        "height": 16,
+        "min_height": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.916863427082,
+              18.310053902254342
+            ],
+            [
+              83.91966342708201,
+              18.310053902254342
+            ],
+            [
+              83.91966342708201,
+              18.312253902254344
+            ],
+            [
+              83.916863427082,
+              18.312253902254344
+            ],
+            [
+              83.916863427082,
+              18.310053902254342
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

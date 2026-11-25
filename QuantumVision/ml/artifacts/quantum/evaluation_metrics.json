@@ -1,0 +1,272 @@
+{
+  "task": "Flood Risk Prediction (Binary Classification)",
+  "study_area": "Srikakulam District, Andhra Pradesh, India",
+  "dataset_version": "v2.0-5000-samples-expanded",
+  "test_sample_count": 982,
+  "models": {
+    "random_forest": {
+      "model": "Random Forest",
+      "type": "Classical ML",
+      "accuracy": 0.998,
+      "flood_precision": 1.0,
+      "flood_recall": 0.9877,
+      "flood_f1": 0.9938,
+      "non_flood_precision": 0.9976,
+      "non_flood_recall": 1.0,
+      "non_flood_f1": 0.9988,
+      "macro_precision": 0.9988,
+      "macro_recall": 0.9938,
+      "macro_f1": 0.9963,
+      "precision": 1.0,
+      "recall": 0.9877,
+      "f1_score": 0.9938,
+      "confusion_matrix": [
+        [
+          820,
+          0
+        ],
+        [
+          2,
+          160
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9998,
+      "selected_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 8,
+        "min_samples_split": 4,
+        "class_weight": "balanced"
+      },
+      "validation_flood_f1": 0.9978,
+      "status": "VALIDATED",
+      "training_time_s": 2.6,
+      "inference_latency_ms": 0.007,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "xgboost": {
+      "model": "XGBoost",
+      "type": "Classical ML",
+      "accuracy": 0.998,
+      "flood_precision": 1.0,
+      "flood_recall": 0.9877,
+      "flood_f1": 0.9938,
+      "non_flood_precision": 0.9976,
+      "non_flood_recall": 1.0,
+      "non_flood_f1": 0.9988,
+      "macro_precision": 0.9988,
+      "macro_recall": 0.9938,
+      "macro_f1": 0.9963,
+      "precision": 1.0,
+      "recall": 0.9877,
+      "f1_score": 0.9938,
+      "confusion_matrix": [
+        [
+          820,
+          0
+        ],
+        [
+          2,
+          160
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9999,
+      "selected_hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.08,
+        "scale_pos_weight": 4.94,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "validation_flood_f1": 0.9941,
+      "status": "VALIDATED",
+      "training_time_s": 1.9,
+      "inference_latency_ms": 0.005,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "vqc_quantum": {
+      "model": "Variational Quantum Classifier (VQC)",
+      "type": "Quantum Simulator",
+      "accuracy": 0.8961,
+      "flood_precision": 0.623,
+      "flood_recall": 0.9383,
+      "flood_f1": 0.7488,
+      "non_flood_precision": 0.9864,
+      "non_flood_recall": 0.8878,
+      "non_flood_f1": 0.9345,
+      "macro_precision": 0.8047,
+      "macro_recall": 0.913,
+      "macro_f1": 0.8416,
+      "precision": 0.623,
+      "recall": 0.9383,
+      "f1_score": 0.7488,
+      "confusion_matrix": [
+        [
+          728,
+          92
+        ],
+        [
+          10,
+          152
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.9729,
+      "simulator": "PennyLane default.qubit",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 24,
+      "status": "SIMULATION",
+      "disclaimer": "Simulated quantum circuit evaluated on identical full test split. No physical quantum supremacy is claimed over classical models.",
+      "training_time_s": 32.5,
+      "inference_latency_ms": 1.42,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    },
+    "qnn_quantum": {
+      "model": "Quantum Neural Network (QNN)",
+      "type": "Quantum Simulator",
+      "accuracy": 0.9012,
+      "flood_precision": 0.6484,
+      "flood_recall": 0.8765,
+      "flood_f1": 0.7454,
+      "non_flood_precision": 0.9738,
+      "non_flood_recall": 0.9061,
+      "non_flood_f1": 0.9387,
+      "macro_precision": 0.8111,
+      "macro_recall": 0.8913,
+      "macro_f1": 0.8421,
+      "precision": 0.6484,
+      "recall": 0.8765,
+      "f1_score": 0.7454,
+      "confusion_matrix": [
+        [
+          743,
+          77
+        ],
+        [
+          20,
+          142
+        ]
+      ],
+      "support": {
+        "non_flood": 820,
+        "flood": 162,
+        "total": 982
+      },
+      "test_sample_count": 982,
+      "roc_auc": 0.955,
+      "simulator": "PennyLane default.qubit",
+      "num_qubits": 4,
+      "circuit_depth": 2,
+      "parameters_count": 16,
+      "status": "SIMULATION",
+      "disclaimer": "Simulated quantum neural network layer evaluated on identical full test split.",
+      "training_time_s": 29.8,
+      "inference_latency_ms": 1.38,
+      "training_status": "TRAINED",
+      "evaluation_status": "EVALUATED_HELD_OUT",
+      "model_version": "v2.0-four-models-retrained",
+      "training_timestamp": "2026-11-05T15:15:08.131958+00:00",
+      "dataset_version": "v2.0-5000-samples-expanded"
+    }
+  },
+  "feature_names": [
+    "sar_vv_db",
+    "sar_vh_db",
+    "sar_vv_vh_ratio",
+    "sar_temporal_diff_db",
+    "elevation_m",
+    "slope_deg",
+    "distance_to_waterway_km",
+    "rainfall_accum_24h_mm",
+    "rainfall_intensity_mm_hr"
+  ],
+  "quantum_feature_names": [
+    "sar_vv_db",
+    "sar_temporal_diff_db",
+    "elevation_m",
+    "rainfall_accum_24h_mm"
+  ],
+  "metadata": {
+    "dataset_version": "v2.0-5000-samples-expanded",
+    "total_samples": 5000,
+    "split_strategy": "Spatial Block Grouped Split (5.5 km blocks, random_state=42)",
+    "train_sample_count": 4018,
+    "test_sample_count": 982,
+    "feature_names": [
+      "sar_vv_db",
+      "sar_vh_db",
+      "sar_vv_vh_ratio",
+      "sar_temporal_diff_db",
+      "elevation_m",
+      "slope_deg",
+      "distance_to_waterway_km",
+      "rainfall_accum_24h_mm",
+      "rainfall_intensity_mm_hr"
+    ],
+    "quantum_feature_names": [
+      "sar_vv_db",
+      "sar_temporal_diff_db",
+      "elevation_m",
+      "rainfall_accum_24h_mm"
+    ],
+    "random_seed": 42,
+    "training_date": "2026-11-05T15:15:08.131958+00:00",
+    "model_version": "v2.0-four-models-retrained",
+    "leakage_audit": {
+      "dataset_sample_count": 5000,
+      "total_unique_locations": 4994,
+      "duplicate_coordinate_records": 12,
+      "duplicate_coordinate_pairs": 6,
+      "spatial_cross_split_leakage_locations": 0,
+      "spatial_leakage_note": "No spatial cross-split coordinate overlap detected.",
+      "feature_label_correlations": {
+        "sar_vv_db": 0.0864,
+        "sar_vh_db": 0.0173,
+        "sar_vv_vh_ratio": 0.059,
+        "sar_temporal_diff_db": 0.0442,
+        "elevation_m": -0.5749,
+        "slope_deg": -0.5795,
+        "distance_to_waterway_km": -0.3317,
+        "rainfall_accum_24h_mm": 0.7858,
+        "rainfall_intensity_mm_hr": 0.7858
+      },
+      "perfect_predictors_detected": [],
+      "feature_derivation_leakage": false,
+      "recommendations_for_expansion": [
+        "Use Spatial GroupKFold clustering or Mandal administrative boundary grouping to eliminate spatial autocorrelation.",
+        "Separate temporally staggered observations (e.g. baseline dry-season vs flood peak) by event timestamp rather than random shuffle.",
+        "Remove collinear features such as 24h accumulated rainfall vs hourly intensity if they derive from a single sensor formula."
+      ]
+    }
+  }
+}

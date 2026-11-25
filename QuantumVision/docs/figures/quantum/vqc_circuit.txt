@@ -1,0 +1,10 @@
+QuantumVision — Variational Quantum Classifier (VQC) Circuit
+Wires: 4, Layers: 2, Gates: AngleEmbedding(Y), Rot, CNOT, expval(Z0)
+============================================================================
+0: ─╭AngleEmbedding(M0)──Rot(0.31,0.35,-0.05)─╭●───────╭X──Rot(0.07,-0.06,-0.06)──╭●───────╭X─┤  <Z>
+1: ─├AngleEmbedding(M0)──Rot(1.09,-1.55,0.11)─╰X─╭●────│───Rot(-0.00,1.38,0.00)───╰X─╭●────│──┤     
+2: ─├AngleEmbedding(M0)──Rot(1.52,0.79,1.56)─────╰X─╭●─│───Rot(-1.47,-1.54,0.02)─────╰X─╭●─│──┤     
+3: ─╰AngleEmbedding(M0)──Rot(0.98,-1.18,0.46)───────╰X─╰●──Rot(-0.95,-0.48,-0.03)───────╰X─╰●─┤     
+
+M0 = 
+[0.45 0.62 0.28 0.75]

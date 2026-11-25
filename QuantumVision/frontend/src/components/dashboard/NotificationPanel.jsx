@@ -1,0 +1,1 @@
+export default function NotificationPanel() { return <div>Notifications</div>; }

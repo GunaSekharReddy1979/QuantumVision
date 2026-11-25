@@ -1,0 +1,1 @@
+export default function SOSPanel() { return <div>SOS</div>; }

@@ -1,0 +1,5 @@
+Model,MAE (mm),RMSE (mm),R2 Score,Heavy Rain MAE (mm),Evaluation Split,Status
+Persistence Baseline (Previous 24h),4.803,10.806,-0.1486,22.796,Chronological (2024-2025),Baseline
+Random Forest Regressor,4.192,8.71,0.2537,22.769,Chronological (2024-2025),Trained
+XGBoost Regressor,4.115,8.552,0.2806,22.791,Chronological (2024-2025),Best / Operational
+Quantum VQC Regressor,N/A,N/A,N/A,N/A,N/A,Experimental (Classification Only)

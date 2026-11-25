@@ -1,0 +1,1 @@
+export default function QuantumAnalytics() { return <div>Quantum Analytics</div>; }

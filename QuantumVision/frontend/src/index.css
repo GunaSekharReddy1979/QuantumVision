@@ -1,0 +1,245 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-page: #F6F9FF;
+  --bg-card: #FFFFFF;
+  --border-card: #DCE7F6;
+  --border-hover: #C5D7F0;
+
+  --color-primary: #2167F3;
+  --color-navy: #0F265C;
+  --color-safe: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-purple: #7C3AED;
+  --color-teal: #0D9488;
+
+  --text-heading: #0F265C;
+  --text-body: #334155;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+
+  /* Shared Layout & Component Design Tokens */
+  --sidebar-width: 215px;
+  --header-height: 62px;
+  --section-gap: 16px;
+
+  /* Global Standard Card Design Tokens */
+  --card-bg: #FFFFFF;
+  --card-border: 1px solid #DCE6F5;
+  --card-border-color: #DCE6F5;
+  --card-border-hover: #BFDBFE;
+  --card-radius: 12px;
+  --card-shadow: 0 1px 3px rgba(15, 38, 92, 0.04);
+  --card-shadow-hover: 0 4px 12px rgba(37, 99, 235, 0.06);
+  --card-padding: 16px;
+  --card-padding-lg: 20px;
+  --card-padding-sm: 12px;
+  --card-divider: 1px solid #F1F5F9;
+
+  /* Standard Card Typography Tokens */
+  --card-title-size: 14px;
+  --card-title-weight: 600;
+  --card-title-color: #0F265C;
+  --card-subtitle-size: 12px;
+  --card-subtitle-color: #64748B;
+  --body-text-size: 13px;
+  --muted-text-color: #64748B;
+  --border-color: #DCE6F5;
+
+  --font-sans: 'Inter', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-page);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet Light Map Container */
+.leaflet-container {
+  background-color: #E2E8F0 !important;
+  font-family: var(--font-sans) !important;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* Ensure Leaflet tiles are bright and clean */
+.leaflet-tile {
+  filter: none !important;
+}
+
+/* Custom Scrollbars */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Global Standardized Card Design Classes */
+.card-light,
+.qv-card {
+  background-color: #FFFFFF;
+  border: 1px solid #DCE6F5;
+  border-radius: 14px;
+  padding: var(--card-padding, 20px);
+  box-shadow: 0 1px 3px 0 rgba(15, 38, 92, 0.04);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.qv-card-lg {
+  padding: var(--card-padding-lg, 24px);
+}
+
+.qv-card-sm {
+  padding: var(--card-padding-sm, 16px);
+}
+
+.card-light:hover,
+.qv-card:hover {
+  border-color: #BFDBFE;
+  box-shadow: 0 4px 12px 0 rgba(37, 99, 235, 0.06);
+}
+
+.qv-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F1F5F9;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.qv-card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F265C;
+  letter-spacing: -0.01em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Route animated dash polyline */
+@keyframes routeDash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.leaflet-route-animated path {
+  stroke-dasharray: 8, 8;
+  animation: routeDash 1.8s linear infinite;
+}
+
+/* Map Popups & Tooltips in Light Theme */
+.light-tooltip {
+  background: #FFFFFF !important;
+  color: #0F265C !important;
+  border: 1px solid #DCE7F6 !important;
+  box-shadow: 0 4px 12px rgba(15, 38, 92, 0.08) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 4px 8px !important;
+  border-radius: 6px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #1E293B !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(15, 38, 92, 0.1), 0 8px 10px -6px rgba(15, 38, 92, 0.1) !important;
+  border: 1px solid #DCE7F6 !important;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+}
+
+main > div[class*="gap-"] {
+  gap: 16px;
+}
+
+main [class~="rounded-[14px]"] {
+  padding: 16px;
+  border-radius: var(--card-radius);
+}
+
+.qv-card {
+  border-radius: var(--card-radius);
+}
+
+.qv-kpi-card {
+  min-height: 172px;
+  padding: 16px;
+  border-radius: var(--card-radius);
+}
+
+@media (max-width: 639px) {
+  main > div[class*="gap-"] {
+    gap: 14px;
+  }
+
+  main [class~="rounded-[14px]"] {
+    padding: 14px;
+  }
+
+  .qv-kpi-card {
+    min-height: 156px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1279px) {
+  main .grid.md\:grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  main .grid.md\:grid-cols-12 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  main .grid.md\:grid-cols-12 > [class*="md:col-span-"] {
+    grid-column: span 1 / span 1;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  main .grid.lg\:grid-cols-12 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  main .grid.lg\:grid-cols-12 > [class*="lg:col-span-"] {
+    grid-column: 1 / -1;
+  }
+}

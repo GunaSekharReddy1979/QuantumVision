@@ -1,0 +1,64 @@
+{
+  "project": "QuantumVision",
+  "dataset": "flood_training_samples.csv",
+  "version": "2.0-expanded",
+  "total_samples": 5000,
+  "target": "flood_label",
+  "features": {
+    "latitude": {
+      "type": "float",
+      "unit": "deg",
+      "description": "WGS84 latitude"
+    },
+    "longitude": {
+      "type": "float",
+      "unit": "deg",
+      "description": "WGS84 longitude"
+    },
+    "sar_vv_db": {
+      "type": "float",
+      "unit": "dB",
+      "description": "Sentinel-1 calibrated Sigma0 VV"
+    },
+    "sar_vh_db": {
+      "type": "float",
+      "unit": "dB",
+      "description": "Sentinel-1 calibrated Sigma0 VH"
+    },
+    "sar_vv_vh_ratio": {
+      "type": "float",
+      "unit": "dB",
+      "description": "Cross-polarization ratio VV/VH"
+    },
+    "sar_temporal_diff_db": {
+      "type": "float",
+      "unit": "dB",
+      "description": "Post - Pre temporal backscatter difference"
+    },
+    "elevation_m": {
+      "type": "float",
+      "unit": "m",
+      "description": "Terrain elevation from Hydro-DEM"
+    },
+    "slope_deg": {
+      "type": "float",
+      "unit": "deg",
+      "description": "Terrain slope"
+    },
+    "distance_to_waterway_km": {
+      "type": "float",
+      "unit": "km",
+      "description": "Distance to nearest surveyed river"
+    },
+    "rainfall_accum_24h_mm": {
+      "type": "float",
+      "unit": "mm",
+      "description": "24h cumulative rainfall"
+    },
+    "rainfall_intensity_mm_hr": {
+      "type": "float",
+      "unit": "mm/hr",
+      "description": "Hourly rainfall intensity"
+    }
+  }
+}

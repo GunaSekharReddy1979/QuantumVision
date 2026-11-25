@@ -1,0 +1,10 @@
+{
+  "include": [
+    "QuantumVision"
+  ],
+  "extraPaths": [
+    "QuantumVision",
+    "QuantumVision/backend"
+  ]
+}
+

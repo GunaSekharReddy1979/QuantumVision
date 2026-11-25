@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+.ds_store
+
+# Logs & Data
+logs/*.log
+datasets/*
+!datasets/.gitkeep
+model_registry/**/*.bin
+model_registry/**/*.onnx
+model_registry/**/*.pth
+reference/
+*.zip
+*.tiff
+*.tif
+*.pbf
+*.graphml
+*.db
+*.sqlite
+*.sqlite3
+
+# Caches & Editor
+.pytest_cache/
+.vscode/

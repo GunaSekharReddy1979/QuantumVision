@@ -1,0 +1,130 @@
+{
+  "is_synced": true,
+  "last_synced_at": "2026-10-24T04:28:57.589924+00:00",
+  "period_start": "2021-01-01",
+  "period_end": "2025-12-31",
+  "points_synced": 8,
+  "total_records": 350592,
+  "data_quality": {
+    "srk_town": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 27.7,
+        "total_precipitation_mm": 7844.6
+      }
+    },
+    "srk_tekkali": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 28.9,
+        "total_precipitation_mm": 8336.2
+      }
+    },
+    "srk_palasa": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 28.9,
+        "total_precipitation_mm": 8556.9
+      }
+    },
+    "srk_sompeta": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 25.5,
+        "total_precipitation_mm": 7078.8
+      }
+    },
+    "srk_ichchapuram": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 29.4,
+        "total_precipitation_mm": 7501.2
+      }
+    },
+    "srk_narasannapeta": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 54.6,
+        "total_precipitation_mm": 8633.0
+      }
+    },
+    "srk_palakonda": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 48.4,
+        "total_precipitation_mm": 9111.9
+      }
+    },
+    "srk_kalingapatnam": {
+      "status": "CLEANED_AND_SAVED",
+      "records": 43824,
+      "start_date": "2021-01-01 00:00:00",
+      "end_date": "2025-12-31 23:00:00",
+      "quality": {
+        "initial_records": 43824,
+        "final_records": 43824,
+        "duplicates_removed": 0,
+        "missing_hours_filled": 0,
+        "negative_precip_corrected": 0,
+        "max_precipitation_recorded_mm": 42.1,
+        "total_precipitation_mm": 7860.8
+      }
+    }
+  }
+}

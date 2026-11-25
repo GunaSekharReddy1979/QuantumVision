@@ -1,0 +1,1 @@
+export default function ExplanationPanel() { return <div>Explanation</div>; }

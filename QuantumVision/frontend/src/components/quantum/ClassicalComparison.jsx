@@ -1,0 +1,1 @@
+export default function ClassicalComparison() { return <div>Classical Comparison</div>; }

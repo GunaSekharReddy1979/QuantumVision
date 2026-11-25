@@ -1,0 +1,31 @@
+/* Grid and Shell Layouts */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: var(--bg-primary, #06090e);
+}
+
+.app-main-content {
+  display: flex;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar-container {
+  width: 320px;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(0, 240, 255, 0.15);
+}
+
+.center-map-area {
+  flex: 1;
+  position: relative;
+  height: 100%;
+}

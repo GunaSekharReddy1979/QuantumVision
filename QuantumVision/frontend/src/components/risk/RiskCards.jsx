@@ -1,0 +1,1 @@
+export default function RiskCards() { return <div>Risk Cards</div>; }

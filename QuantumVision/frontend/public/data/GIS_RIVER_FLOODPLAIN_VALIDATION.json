@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "study_area": "Srikakulam District, Andhra Pradesh, India",
+    "crs": "EPSG:4326 (WGS84)",
+    "validation_timestamp_ist": "2026-11-02 09:50:47 IST",
+    "data_sources": {
+      "river_network": "OpenStreetMap Hydrographic Relations & Ways (Surveyed Channels)",
+      "floodplain_polygons": "Copernicus Sentinel-1 SAR Dual-Date SAR Backscatter + Hydro-DEM 30m Elevation Constraints",
+      "boundary": "Census 2011 / Survey of India Official Administrative Boundary"
+    }
+  },
+  "metrics": {
+    "total_river_features": 613,
+    "total_flood_polygons": 250,
+    "invalid_geometry_count": 0,
+    "out_of_study_area_count": 0,
+    "riverine_floodplains": {
+      "count": 237,
+      "passed_threshold_count": 237,
+      "compliance_percentage": 100.0,
+      "threshold_km": 2.0,
+      "min_distance_to_river_km": 0.0,
+      "mean_distance_to_river_km": 0.27,
+      "max_distance_to_river_km": 1.224
+    },
+    "coastal_surge_zones": {
+      "count": 7,
+      "status": "VERIFIED_BAY_OF_BENGAL_LITTORAL"
+    },
+    "drainage_congestion_zones": {
+      "count": 6,
+      "status": "VERIFIED_LOW_SLOPE_DEPRESSION"
+    },
+    "flagged_for_review_count": 0,
+    "overall_status": "VERIFIED_ACCURATE"
+  }
+}

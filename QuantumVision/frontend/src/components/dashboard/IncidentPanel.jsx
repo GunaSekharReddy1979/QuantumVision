@@ -1,0 +1,1 @@
+export default function IncidentPanel() { return <div>Incidents</div>; }

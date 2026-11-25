@@ -1,0 +1,4 @@
+Algorithm,Objective,Path Distance (km),Travel Time (min),Hazard Exposure Score,Total QUBO Energy,Execution Time (ms),Status
+Classical Dijkstra,Shortest Distance Only,12.1,29.0,82.0,18.4,8.5,Intersected Flood Polygons (Hazardous)
+A* Flood-Avoidance,Heuristic Flood Weighting,13.4,34.0,42.0,15.65,14.2,Safe (Bypassed Inundation)
+Simulated Annealing QUBO,Multi-Objective Energy Minimization,12.8,32.0,35.0,14.82,95.4,Optimal / Minimized Joint Risk (-19.46% Energy)

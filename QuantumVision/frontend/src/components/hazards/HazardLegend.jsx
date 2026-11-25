@@ -1,0 +1,1 @@
+export default function HazardLegend() { return <div>Hazard Legend</div>; }

@@ -1,0 +1,1 @@
+export default function RouteExplanation() { return <div>Explanation</div>; }

@@ -1,0 +1,1 @@
+export default function EmergencyAssistant() { return <div>Assistant</div>; }

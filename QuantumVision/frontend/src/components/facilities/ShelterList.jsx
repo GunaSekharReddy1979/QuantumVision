@@ -1,0 +1,1 @@
+export default function ShelterList() { return <div>Shelters</div>; }

@@ -1,0 +1,4 @@
+Algorithm,Routing Strategy,Distance (km),Travel Time (min),Flood Inundation Crossings,Hazard Status,Execution Time (ms)
+Dijkstra Unconstrained,Shortest Distance Only (Ignores Flood Hazard),14.38,28.5,12,HAZARDOUS (Direct Path Traverses Submerged River Delta),789.04
+A* Dynamic Flood Avoidance,Heuristic Flood-Penalized Weighting (100x-500x Penalty),34.58,48.2,0,SAFE (Bypasses Submerged Zones via Elevated NH16 Corridor),1674.6
+A* Primary vs Alternative Path,Multi-Corridor Generation (Edge Penalization),36.12,51.0,0,SAFE (Secondary Evacuation Corridor via State Highway SH101),1820.3

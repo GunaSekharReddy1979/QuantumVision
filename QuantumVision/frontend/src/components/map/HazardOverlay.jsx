@@ -1,0 +1,1 @@
+export default function HazardOverlay() { return <div>Hazard Overlay</div>; }

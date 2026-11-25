@@ -1,0 +1,1 @@
+export default function FacilitiesPanel() { return <div>Facilities Panel</div>; }

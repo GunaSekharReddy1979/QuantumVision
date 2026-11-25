@@ -1,0 +1,3192 @@
+{
+  "type": "FeatureCollection",
+  "name": "srikakulam_facilities_clipped",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4243991,
+          18.7020804
+        ]
+      },
+      "properties": {
+        "id": "fac_3372015625",
+        "name": "Z.P.H. School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3008022,
+          18.6607794
+        ]
+      },
+      "properties": {
+        "id": "fac_4314911526",
+        "name": "Government Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9488338,
+          18.6872123
+        ]
+      },
+      "properties": {
+        "id": "fac_4796666412",
+        "name": "Government Primary Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8946253332",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9489545,
+          18.6746281
+        ]
+      },
+      "properties": {
+        "id": "fac_4798383407",
+        "name": "Sri Satya Narayana Function Hall",
+        "type": "shelter",
+        "subtype": "community_centre",
+        "capacity": 500,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9488763,
+          18.6701636
+        ]
+      },
+      "properties": {
+        "id": "fac_5081033433",
+        "name": "Govt. Secondary School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9499172,
+          18.6702135
+        ]
+      },
+      "properties": {
+        "id": "fac_5081033452",
+        "name": "Govt. Primary School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9491389,
+          18.6686281
+        ]
+      },
+      "properties": {
+        "id": "fac_5081033550",
+        "name": "Satya Sai Function Hall",
+        "type": "shelter",
+        "subtype": "community_centre",
+        "capacity": 500,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.950059,
+          18.6660841
+        ]
+      },
+      "properties": {
+        "id": "fac_5081033551",
+        "name": "Narayana School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8340817,
+          18.4841166
+        ]
+      },
+      "properties": {
+        "id": "fac_5672251522",
+        "name": "ov peta",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4180441,
+          18.763608
+        ]
+      },
+      "properties": {
+        "id": "fac_6758476891",
+        "name": "Sitarama Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.658307,
+          18.4615184
+        ]
+      },
+      "properties": {
+        "id": "fac_6758594237",
+        "name": "Gmr Varalaxmi Care Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0396018,
+          18.4156427
+        ]
+      },
+      "properties": {
+        "id": "fac_6758616517",
+        "name": "Vaatsalya Hospital - Srikakulam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "08942277455; 277661",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9016612,
+          18.2997004
+        ]
+      },
+      "properties": {
+        "id": "fac_6758691770",
+        "name": "K C Eye Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "21010",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5853496,
+          18.943505
+        ]
+      },
+      "properties": {
+        "id": "fac_6758716881",
+        "name": "Arogyavaram Eye Hospital and Contact Lens Clinic",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8818598,
+          18.3045184
+        ]
+      },
+      "properties": {
+        "id": "fac_6758778932",
+        "name": "Kims Sai Seshadri Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "+91-8374-998824, 271118",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5837831,
+          18.9442826
+        ]
+      },
+      "properties": {
+        "id": "fac_6761040427",
+        "name": "Mahalaxmi Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5860402,
+          18.945239
+        ]
+      },
+      "properties": {
+        "id": "fac_6768432505",
+        "name": "Annapoorna Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.6861805,
+          19.1135971
+        ]
+      },
+      "properties": {
+        "id": "fac_6768481285",
+        "name": "Shanti Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "08947-232265",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8965757,
+          18.2928691
+        ]
+      },
+      "properties": {
+        "id": "fac_6770855127",
+        "name": "Sri Surya Hospital - Srikakulam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942227766",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9037935,
+          18.2989491
+        ]
+      },
+      "properties": {
+        "id": "fac_6770867783",
+        "name": "Santhi hospitals",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942221166",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9032531,
+          18.4119635
+        ]
+      },
+      "properties": {
+        "id": "fac_6771341350",
+        "name": "Sri Srinivasa Nursing Home - Srikakulam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.090317,
+          18.7460504
+        ]
+      },
+      "properties": {
+        "id": "fac_6776348753",
+        "name": "Kanaka Durga Nurisng Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8936803,
+          18.3076391
+        ]
+      },
+      "properties": {
+        "id": "fac_6778951344",
+        "name": "Amrutha Hospital - Srikakulam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8965288,
+          18.3089913
+        ]
+      },
+      "properties": {
+        "id": "fac_6782056030",
+        "name": "Sarojini Devi Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "279696",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8930017,
+          18.3067173
+        ]
+      },
+      "properties": {
+        "id": "fac_6789818473",
+        "name": "Sindhura Hospitals",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942228455",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8941476,
+          18.3055739
+        ]
+      },
+      "properties": {
+        "id": "fac_6798009309",
+        "name": "Pavani Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9032732,
+          18.3014721
+        ]
+      },
+      "properties": {
+        "id": "fac_6798036388",
+        "name": "Vijaya Harsha Thalli Pillala Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942222221",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8964543,
+          18.2896412
+        ]
+      },
+      "properties": {
+        "id": "fac_6804806174",
+        "name": "Adithya Multi Specialty Dental Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942223244",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7788293,
+          18.4714774
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980651",
+        "name": "Government Hospital, Chennaiahpeta",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8450196,
+          18.3969317
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980653",
+        "name": "Government Hospital, Thogaram",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942247660",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9031646,
+          18.4114442
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980657",
+        "name": "Government Hospital, Mettakkivalasa",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2386772,
+          18.6015646
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980658",
+        "name": "Area Hospital,Tekkali",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8945244262",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5813046,
+          18.8853887
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980663",
+        "name": "Government Hospital, Baruva",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8947235131",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.424622,
+          18.7611632
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980664",
+        "name": "Government Railway Hospital,Palasa",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8945241063",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8951121,
+          18.2964193
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980667",
+        "name": "Prabhutva Ayurveda Speciality Wing Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2024962,
+          18.5364622
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980670",
+        "name": "Government Hospital, Santhabommali",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8875065,
+          18.3131952
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980671",
+        "name": "RIMS General Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8942279033",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1831558,
+          18.7705786
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980672",
+        "name": "Government Hospital, Chapara",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.584178,
+          18.947865
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980677",
+        "name": "Government Hospital,Sompeta",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8947234350",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3668932,
+          18.6607368
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980679",
+        "name": "Government Hospital,Pundi",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.011328,
+          18.545402
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980682",
+        "name": "Budithi Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8946272506",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6594204,
+          18.4490674
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980683",
+        "name": "Government Hospital, Razam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8941251255",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.6687384,
+          18.9834672
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980685",
+        "name": "Government Hospital, Borivanka",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1941819,
+          18.5708794
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980686",
+        "name": "Government Hospital,Konusulakotturu",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6318858,
+          18.4107994
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980688",
+        "name": "Government Hospital, Boddam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.685589,
+          19.111361
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980691",
+        "name": "Government Hospital , Ichapuram",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9618279,
+          18.6159305
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980692",
+        "name": "Government Hospital,L.N.Peta",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8946273752",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5027718,
+          18.8471574
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980698",
+        "name": "Government Hospital, Haripuram",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0845567,
+          18.7456769
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980699",
+        "name": "Government Hospital,Pathapatnam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "8946255020",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5804544,
+          18.86122
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980701",
+        "name": "Government Hospital, Battigalluru",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7596366,
+          18.3514386
+        ]
+      },
+      "properties": {
+        "id": "fac_7115980705",
+        "name": "Government Hospital, Ponduru",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9076843,
+          18.2875633
+        ]
+      },
+      "properties": {
+        "id": "fac_7293555839",
+        "name": "Sarvani Vidhyalaya",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4178744,
+          18.7653489
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364817",
+        "name": "Svdp Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4399888,
+          18.6943154
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364818",
+        "name": "Vennila Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8948131,
+          18.2999999
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364820",
+        "name": "Dr. Kella Venkatarao Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8928526,
+          18.3070871
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364821",
+        "name": "Dr Madhu Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.372358,
+          18.662607
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364822",
+        "name": "Pundi Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8941554,
+          18.3057836
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364823",
+        "name": "S.A.N. Children's Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8956032,
+          18.3133253
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364825",
+        "name": "Suraksha Kidney & Maternity Centre",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8973497,
+          18.3072952
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364826",
+        "name": "Parthiv Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3728269,
+          18.6631264
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364827",
+        "name": "Dr.Sanjeev Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3865467,
+          18.7471383
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364829",
+        "name": "Srinivasa Healthcare, Poly Clinic & Diagnostics",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4188224,
+          18.7650146
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364830",
+        "name": "Dr Sheila Eye Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.895936,
+          18.292967
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364833",
+        "name": "Radiant Health Care For Dental,Skin and Hair",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.37349,
+          18.66269
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364834",
+        "name": "Sanjay Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.894548,
+          18.306725
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364835",
+        "name": "Sri Vishnavi Ganesh Doctor'S Plaza",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8962327,
+          18.2933037
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364836",
+        "name": "Dr.L. Suryalingam Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9055983,
+          18.2893051
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364838",
+        "name": "Sukhibava Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.893269,
+          18.3069118
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364839",
+        "name": "S.V. Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.902446,
+          18.276062
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364840",
+        "name": "Siri Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8953372,
+          18.3079069
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364841",
+        "name": "Dwarakamai Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8869208,
+          18.2954119
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364842",
+        "name": "Shirdisai Praja Vaidyasala",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8963732,
+          18.3023799
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364843",
+        "name": "Dr Sasikala Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8967505,
+          18.2901119
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364844",
+        "name": "Sri Harinarayana Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.896217,
+          18.2886198
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364845",
+        "name": "Anuradha Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4184564,
+          18.7640506
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364846",
+        "name": "Dr Balakrishna Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8969895,
+          18.3052636
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364847",
+        "name": "Prem Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.899076,
+          18.305061
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364848",
+        "name": "Kamala Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.892814,
+          18.307579
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364849",
+        "name": "Dr . Sridhar Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4195735,
+          18.7645122
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364850",
+        "name": "Oxygen Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.895177,
+          18.3136668
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364851",
+        "name": "Dr.Golivi Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8960997,
+          18.2766065
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364854",
+        "name": "Dr.Caps Memorial Society",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4207399,
+          18.7639182
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364856",
+        "name": "Dr Malleswara Rao Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4169469,
+          18.7641187
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364858",
+        "name": "New Oxyzen Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4158372,
+          18.7551762
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364859",
+        "name": "Swami ENT Care",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4198649,
+          18.762265
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364860",
+        "name": "Padma Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4211274,
+          18.7635166
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364861",
+        "name": "Surya Homoeo Clinic",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8987348,
+          18.2824841
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364862",
+        "name": "Vandana Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8929577,
+          18.3083461
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364863",
+        "name": "Dinesh Eye Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8970004,
+          18.3053496
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364864",
+        "name": "Sri Srinivasa Maternity Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.893845,
+          18.306563
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364865",
+        "name": "Rainbow Hospitals",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.893564,
+          18.3059933
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364866",
+        "name": "Varenya Oopiri Chest Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8960655,
+          18.3044565
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364867",
+        "name": "Waves Physiotherapy Clinic",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8935153,
+          18.294203
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364870",
+        "name": "Eswar Eye Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4181344,
+          18.7631364
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364871",
+        "name": "Sri Krishna Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8945383,
+          18.3068417
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364872",
+        "name": "R.k Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8957049,
+          18.3192623
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364873",
+        "name": "Free Homeo Clinic",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4188,
+          18.761619
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364874",
+        "name": "Sri Sanjeevani Naturecure Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.42748,
+          18.762138
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364875",
+        "name": "Dr. Vijayakumar Children's Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4263158,
+          18.7633444
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364876",
+        "name": "Vijaya Narayana Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.893603,
+          18.30595
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364877",
+        "name": "Care Hospitals",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8995153,
+          18.2951801
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364878",
+        "name": "ECHS Polyclinic",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.3728229,
+          18.6628514
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364880",
+        "name": "Sindhuja Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8930275,
+          18.3056749
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364881",
+        "name": "Life Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9031396,
+          18.3016242
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364882",
+        "name": "Tirumala Maternity & Surgical Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.372771,
+          18.662774
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364883",
+        "name": "Sri Venkateswara Nursing Home",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.893042,
+          18.305423
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364884",
+        "name": "Janani Mother And Child Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.896696,
+          18.3057754
+        ]
+      },
+      "properties": {
+        "id": "fac_7786364885",
+        "name": "Vijaya Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.650366,
+          18.4504378
+        ]
+      },
+      "properties": {
+        "id": "fac_8113732840",
+        "name": "St. ANNS HOSPITAL",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6619293,
+          18.4610305
+        ]
+      },
+      "properties": {
+        "id": "fac_8115194870",
+        "name": "ZPHS DOALPETA",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6573495,
+          18.4479936
+        ]
+      },
+      "properties": {
+        "id": "fac_8118832371",
+        "name": "ORIENT KIDS SCHOOL",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.673236,
+          18.4475966
+        ]
+      },
+      "properties": {
+        "id": "fac_8118834659",
+        "name": "SRI CHAITANYA TECHNO SCHOOL",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.762995,
+          18.600848
+        ]
+      },
+      "properties": {
+        "id": "fac_8791581236",
+        "name": "Government Hospital, Palakonda",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8809022,
+          18.2927316
+        ]
+      },
+      "properties": {
+        "id": "fac_8791587165",
+        "name": "Vijay College of Nursing",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0026477,
+          18.2724016
+        ]
+      },
+      "properties": {
+        "id": "fac_8791626366",
+        "name": "Government Hospital, Srikurmam",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9017529,
+          18.3051004
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926780",
+        "name": "Facility 9903926780",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9035825,
+          18.2928505
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926831",
+        "name": "Govt Girls High School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.89828,
+          18.3078785
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926848",
+        "name": "R.C.M Loyola E.M. High School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9045852,
+          18.3009949
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926852",
+        "name": "Facility 9903926852",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9044701,
+          18.3088087
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926853",
+        "name": "Facility 9903926853",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9014755,
+          18.296299
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926854",
+        "name": "Facility 9903926854",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9032717,
+          18.2943656
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926863",
+        "name": "Facility 9903926863",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9024003,
+          18.2932533
+        ]
+      },
+      "properties": {
+        "id": "fac_9903926864",
+        "name": "Facility 9903926864",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8922457,
+          18.308769
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867428",
+        "name": "Vikas High School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8922568,
+          18.3091471
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867429",
+        "name": "HARANADH HOSPITALS",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8890435,
+          18.309279
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867437",
+        "name": "Intermediate Study",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8929727,
+          18.307392
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867470",
+        "name": "Health Care Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8928338,
+          18.307429
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867471",
+        "name": "Meenakshi Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.892328,
+          18.3075556
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867473",
+        "name": "Samskar International School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8928967,
+          18.3082081
+        ]
+      },
+      "properties": {
+        "id": "fac_9918867474",
+        "name": "Sun Rise Hospital Dr Boddepalli Suresh MD",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8948699,
+          18.2978655
+        ]
+      },
+      "properties": {
+        "id": "fac_9918920585",
+        "name": "Royal plaza",
+        "type": "shelter",
+        "subtype": "community_centre",
+        "capacity": 500,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8934207,
+          18.2952374
+        ]
+      },
+      "properties": {
+        "id": "fac_9918920613",
+        "name": "DPEP Municipal Elementary School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8937637,
+          18.2953842
+        ]
+      },
+      "properties": {
+        "id": "fac_9918920614",
+        "name": "NTR Municipal School Commerical Complex",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1306111,
+          18.5027814
+        ]
+      },
+      "properties": {
+        "id": "fac_10829005992",
+        "name": "ZPHS High School , Jarjangi",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1334872,
+          18.500358
+        ]
+      },
+      "properties": {
+        "id": "fac_10829045187",
+        "name": "ZPHS Elementry School  , Jarjangi",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1301997,
+          18.5018507
+        ]
+      },
+      "properties": {
+        "id": "fac_10829093879",
+        "name": "Jarjangi Primary Health Center",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9020124,
+          18.2940501
+        ]
+      },
+      "properties": {
+        "id": "fac_10836190669",
+        "name": "Facility 10836190669",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.885673,
+          18.295687
+        ]
+      },
+      "properties": {
+        "id": "fac_10836192140",
+        "name": "Facility 10836192140",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1216294,
+          18.4789382
+        ]
+      },
+      "properties": {
+        "id": "fac_11230577763",
+        "name": "Passengers Waiting Shelter",
+        "type": "shelter",
+        "subtype": "shelter",
+        "capacity": 500,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0936192,
+          18.4264446
+        ]
+      },
+      "properties": {
+        "id": "fac_11230809941",
+        "name": "ZPHS School , Piruvada",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1479063,
+          18.5191182
+        ]
+      },
+      "properties": {
+        "id": "fac_11245062695",
+        "name": "Government Hospital , Kotabommali",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.150993,
+          18.5188571
+        ]
+      },
+      "properties": {
+        "id": "fac_11245062713",
+        "name": "Government Veternary Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.6278957,
+          18.9195167
+        ]
+      },
+      "properties": {
+        "id": "fac_11285489082",
+        "name": "Isakalapalem High School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9025446,
+          18.3055415
+        ]
+      },
+      "properties": {
+        "id": "fac_11384942485",
+        "name": "YSR Public Hospital",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0552386,
+          18.4256639
+        ]
+      },
+      "properties": {
+        "id": "fac_11388934284",
+        "name": "ST . Claret English Medium High School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0557806,
+          18.4265794
+        ]
+      },
+      "properties": {
+        "id": "fac_11388934297",
+        "name": "St Claret KG Block",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8933425,
+          18.305951
+        ]
+      },
+      "properties": {
+        "id": "fac_11541799780",
+        "name": "Hope",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0891768,
+          18.7394543
+        ]
+      },
+      "properties": {
+        "id": "fac_11664578326",
+        "name": "AP Model School, Pathapatnam",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.880154,
+          18.3878782
+        ]
+      },
+      "properties": {
+        "id": "fac_11690643001",
+        "name": "Apollo Hospitals",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.7778903,
+          18.3390538
+        ]
+      },
+      "properties": {
+        "id": "fac_11944648284",
+        "name": "AP MODEL SCHOOL, VAVILAPALLI PETA",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5084276,
+          18.7588206
+        ]
+      },
+      "properties": {
+        "id": "fac_12104502096",
+        "name": "ZPHS Metturu",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0688841,
+          18.4370609
+        ]
+      },
+      "properties": {
+        "id": "fac_12430755881",
+        "name": "A.P Govt Laided Residencial School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0968327,
+          18.4985116
+        ]
+      },
+      "properties": {
+        "id": "fac_12484748002",
+        "name": "Regulapadu Primary Health Center",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8757853,
+          18.3043156
+        ]
+      },
+      "properties": {
+        "id": "fac_12956372708",
+        "name": "ECHS Polyclinic",
+        "type": "hospital",
+        "subtype": "clinic",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4209479,
+          18.7628295
+        ]
+      },
+      "properties": {
+        "id": "fac_13204712289",
+        "name": "ZPHS  ground",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.2362983,
+          18.6065296
+        ]
+      },
+      "properties": {
+        "id": "fac_13546660789",
+        "name": "MPUP School",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.6127466,
+          18.3949433
+        ]
+      },
+      "properties": {
+        "id": "fac_13690117222",
+        "name": "Facility 13690117222",
+        "type": "hospital",
+        "subtype": "hospital",
+        "capacity": 350,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5850707,
+          18.9327897
+        ]
+      },
+      "properties": {
+        "id": "fac_13737559772",
+        "name": "MPUP School Zinkibhadra",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5844403,
+          18.9495888
+        ]
+      },
+      "properties": {
+        "id": "fac_13737559842",
+        "name": "High School Ground SPT",
+        "type": "school",
+        "subtype": "school",
+        "capacity": 250,
+        "contact": "N/A",
+        "district": "Srikakulam",
+        "status": "OPERATIONAL"
+      }
+    }
+  ]
+}

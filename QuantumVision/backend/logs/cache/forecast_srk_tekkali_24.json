@@ -1,0 +1,432 @@
+{
+  "study_area": "Srikakulam District, Andhra Pradesh, India",
+  "provider": "Open-Meteo ECMWF/GFS Operational Model",
+  "data_mode": "PROVIDER FORECAST",
+  "is_stale": false,
+  "retrieved_at": "2026-11-24T14:10:00.459925+00:00",
+  "valid_from": "2026-11-24T19:00",
+  "valid_to": "2026-11-25T18:00",
+  "forecast_horizon_hours": 24,
+  "district_summary": {
+    "spatial_aggregation_method": "Multi-point Spatial Distribution (Mean, Min, Max across 8 verified points)",
+    "mean_accumulated_24h_mm": 0.1,
+    "min_point_accumulated_24h_mm": 0.1,
+    "max_point_accumulated_24h_mm": 0.1,
+    "max_district_hourly_intensity_mm": 0.1,
+    "peak_rainfall_locality": "Tekkali",
+    "reporting_points_count": 1,
+    "district_risk_level": "LOW",
+    "hourly_district_series": [
+      {
+        "time": "2026-11-24T19:00",
+        "hour_offset": 1,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 25.0
+      },
+      {
+        "time": "2026-11-24T20:00",
+        "hour_offset": 2,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 24.7
+      },
+      {
+        "time": "2026-11-24T21:00",
+        "hour_offset": 3,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 24.0
+      },
+      {
+        "time": "2026-11-24T22:00",
+        "hour_offset": 4,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.6
+      },
+      {
+        "time": "2026-11-24T23:00",
+        "hour_offset": 5,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.5
+      },
+      {
+        "time": "2026-11-25T00:00",
+        "hour_offset": 6,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.4
+      },
+      {
+        "time": "2026-11-25T01:00",
+        "hour_offset": 7,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.6
+      },
+      {
+        "time": "2026-11-25T02:00",
+        "hour_offset": 8,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.7
+      },
+      {
+        "time": "2026-11-25T03:00",
+        "hour_offset": 9,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.5
+      },
+      {
+        "time": "2026-11-25T04:00",
+        "hour_offset": 10,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 23.1
+      },
+      {
+        "time": "2026-11-25T05:00",
+        "hour_offset": 11,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 22.9
+      },
+      {
+        "time": "2026-11-25T06:00",
+        "hour_offset": 12,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 22.9
+      },
+      {
+        "time": "2026-11-25T07:00",
+        "hour_offset": 13,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 24.8
+      },
+      {
+        "time": "2026-11-25T08:00",
+        "hour_offset": 14,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 26.2
+      },
+      {
+        "time": "2026-11-25T09:00",
+        "hour_offset": 15,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 27.2
+      },
+      {
+        "time": "2026-11-25T10:00",
+        "hour_offset": 16,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 27.9
+      },
+      {
+        "time": "2026-11-25T11:00",
+        "hour_offset": 17,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 28.2
+      },
+      {
+        "time": "2026-11-25T12:00",
+        "hour_offset": 18,
+        "mean_precipitation_mm": 0.1,
+        "max_precipitation_mm": 0.1,
+        "min_precipitation_mm": 0.1,
+        "mean_temperature_c": 28.2
+      },
+      {
+        "time": "2026-11-25T13:00",
+        "hour_offset": 19,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 27.8
+      },
+      {
+        "time": "2026-11-25T14:00",
+        "hour_offset": 20,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 27.1
+      },
+      {
+        "time": "2026-11-25T15:00",
+        "hour_offset": 21,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 26.5
+      },
+      {
+        "time": "2026-11-25T16:00",
+        "hour_offset": 22,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 26.1
+      },
+      {
+        "time": "2026-11-25T17:00",
+        "hour_offset": 23,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 25.0
+      },
+      {
+        "time": "2026-11-25T18:00",
+        "hour_offset": 24,
+        "mean_precipitation_mm": 0.0,
+        "max_precipitation_mm": 0.0,
+        "min_precipitation_mm": 0.0,
+        "mean_temperature_c": 24.7
+      }
+    ]
+  },
+  "locations": [
+    {
+      "point_id": "srk_tekkali",
+      "name": "Tekkali",
+      "latitude": 18.6144,
+      "longitude": 84.2336,
+      "elevation_m": 28.0,
+      "zone": "Central Lowland Corridor",
+      "river_basin": "Vamsadhara Lowland Plains",
+      "retrieved_at": "2026-11-24T14:09:53.519995+00:00",
+      "accumulated_precipitation_24h_mm": 0.1,
+      "max_hourly_intensity_mm": 0.1,
+      "avg_temperature_c": 25.2,
+      "avg_relative_humidity_pct": 82.4,
+      "avg_wind_speed_kmh": 10.6,
+      "rainfall_classification": "No Rain",
+      "series_count": 24,
+      "series": [
+        {
+          "time": "2026-11-24T19:00",
+          "hour_offset": 1,
+          "precipitation_mm": 0.0,
+          "temperature_c": 25.0,
+          "relative_humidity_pct": 87.0,
+          "wind_speed_kmh": 7.1
+        },
+        {
+          "time": "2026-11-24T20:00",
+          "hour_offset": 2,
+          "precipitation_mm": 0.0,
+          "temperature_c": 24.7,
+          "relative_humidity_pct": 86.0,
+          "wind_speed_kmh": 8.2
+        },
+        {
+          "time": "2026-11-24T21:00",
+          "hour_offset": 3,
+          "precipitation_mm": 0.0,
+          "temperature_c": 24.0,
+          "relative_humidity_pct": 89.0,
+          "wind_speed_kmh": 6.2
+        },
+        {
+          "time": "2026-11-24T22:00",
+          "hour_offset": 4,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.6,
+          "relative_humidity_pct": 93.0,
+          "wind_speed_kmh": 4.2
+        },
+        {
+          "time": "2026-11-24T23:00",
+          "hour_offset": 5,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.5,
+          "relative_humidity_pct": 94.0,
+          "wind_speed_kmh": 6.6
+        },
+        {
+          "time": "2026-11-25T00:00",
+          "hour_offset": 6,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.4,
+          "relative_humidity_pct": 94.0,
+          "wind_speed_kmh": 7.0
+        },
+        {
+          "time": "2026-11-25T01:00",
+          "hour_offset": 7,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.6,
+          "relative_humidity_pct": 92.0,
+          "wind_speed_kmh": 7.4
+        },
+        {
+          "time": "2026-11-25T02:00",
+          "hour_offset": 8,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.7,
+          "relative_humidity_pct": 89.0,
+          "wind_speed_kmh": 8.5
+        },
+        {
+          "time": "2026-11-25T03:00",
+          "hour_offset": 9,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.5,
+          "relative_humidity_pct": 90.0,
+          "wind_speed_kmh": 8.3
+        },
+        {
+          "time": "2026-11-25T04:00",
+          "hour_offset": 10,
+          "precipitation_mm": 0.0,
+          "temperature_c": 23.1,
+          "relative_humidity_pct": 91.0,
+          "wind_speed_kmh": 7.2
+        },
+        {
+          "time": "2026-11-25T05:00",
+          "hour_offset": 11,
+          "precipitation_mm": 0.0,
+          "temperature_c": 22.9,
+          "relative_humidity_pct": 92.0,
+          "wind_speed_kmh": 7.4
+        },
+        {
+          "time": "2026-11-25T06:00",
+          "hour_offset": 12,
+          "precipitation_mm": 0.0,
+          "temperature_c": 22.9,
+          "relative_humidity_pct": 91.0,
+          "wind_speed_kmh": 7.3
+        },
+        {
+          "time": "2026-11-25T07:00",
+          "hour_offset": 13,
+          "precipitation_mm": 0.0,
+          "temperature_c": 24.8,
+          "relative_humidity_pct": 85.0,
+          "wind_speed_kmh": 10.1
+        },
+        {
+          "time": "2026-11-25T08:00",
+          "hour_offset": 14,
+          "precipitation_mm": 0.0,
+          "temperature_c": 26.2,
+          "relative_humidity_pct": 78.0,
+          "wind_speed_kmh": 12.9
+        },
+        {
+          "time": "2026-11-25T09:00",
+          "hour_offset": 15,
+          "precipitation_mm": 0.0,
+          "temperature_c": 27.2,
+          "relative_humidity_pct": 71.0,
+          "wind_speed_kmh": 16.6
+        },
+        {
+          "time": "2026-11-25T10:00",
+          "hour_offset": 16,
+          "precipitation_mm": 0.0,
+          "temperature_c": 27.9,
+          "relative_humidity_pct": 67.0,
+          "wind_speed_kmh": 16.7
+        },
+        {
+          "time": "2026-11-25T11:00",
+          "hour_offset": 17,
+          "precipitation_mm": 0.0,
+          "temperature_c": 28.2,
+          "relative_humidity_pct": 66.0,
+          "wind_speed_kmh": 16.3
+        },
+        {
+          "time": "2026-11-25T12:00",
+          "hour_offset": 18,
+          "precipitation_mm": 0.1,
+          "temperature_c": 28.2,
+          "relative_humidity_pct": 66.0,
+          "wind_speed_kmh": 16.5
+        },
+        {
+          "time": "2026-11-25T13:00",
+          "hour_offset": 19,
+          "precipitation_mm": 0.0,
+          "temperature_c": 27.8,
+          "relative_humidity_pct": 69.0,
+          "wind_speed_kmh": 16.9
+        },
+        {
+          "time": "2026-11-25T14:00",
+          "hour_offset": 20,
+          "precipitation_mm": 0.0,
+          "temperature_c": 27.1,
+          "relative_humidity_pct": 72.0,
+          "wind_speed_kmh": 16.2
+        },
+        {
+          "time": "2026-11-25T15:00",
+          "hour_offset": 21,
+          "precipitation_mm": 0.0,
+          "temperature_c": 26.5,
+          "relative_humidity_pct": 74.0,
+          "wind_speed_kmh": 15.7
+        },
+        {
+          "time": "2026-11-25T16:00",
+          "hour_offset": 22,
+          "precipitation_mm": 0.0,
+          "temperature_c": 26.1,
+          "relative_humidity_pct": 77.0,
+          "wind_speed_kmh": 13.2
+        },
+        {
+          "time": "2026-11-25T17:00",
+          "hour_offset": 23,
+          "precipitation_mm": 0.0,
+          "temperature_c": 25.0,
+          "relative_humidity_pct": 81.0,
+          "wind_speed_kmh": 10.1
+        },
+        {
+          "time": "2026-11-25T18:00",
+          "hour_offset": 24,
+          "precipitation_mm": 0.0,
+          "temperature_c": 24.7,
+          "relative_humidity_pct": 83.0,
+          "wind_speed_kmh": 8.9
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "points_queried": 1,
+    "points_valid": 1,
+    "coverage_pct": 100.0
+  }
+}

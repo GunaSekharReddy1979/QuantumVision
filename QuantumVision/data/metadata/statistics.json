@@ -1,0 +1,30 @@
+{
+  "total_records": 5000,
+  "features_count": 11,
+  "classes": {
+    "0": 4161,
+    "1": 839
+  },
+  "null_counts": {
+    "latitude": 0,
+    "longitude": 0,
+    "sar_vv_db": 0,
+    "sar_vh_db": 0,
+    "sar_vv_vh_ratio": 0,
+    "sar_temporal_diff_db": 0,
+    "elevation_m": 0,
+    "slope_deg": 0,
+    "distance_to_waterway_km": 0,
+    "rainfall_accum_24h_mm": 0,
+    "rainfall_intensity_mm_hr": 0,
+    "flood_label": 0
+  },
+  "metrics": {
+    "mean_sar_vv_db": -42.502,
+    "mean_sar_vh_db": -51.683,
+    "mean_elevation_m": 44.72,
+    "mean_distance_to_waterway_km": 2.731,
+    "mean_rainfall_accum_24h_mm": 92.576
+  }
+}
+

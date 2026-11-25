@@ -1,0 +1,1 @@
+export default function RiskPrediction() { return <div>Risk Prediction</div>; }

@@ -1,0 +1,1 @@
+export default function HazardDetails() { return <div>Hazard Details</div>; }

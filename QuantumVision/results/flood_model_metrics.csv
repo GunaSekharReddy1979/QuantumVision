@@ -1,0 +1,5 @@
+Model Name,Model Type,Accuracy,Precision,Recall,F1-Score,ROC-AUC,True Negatives,False Positives,False Negatives,True Positives,Test Samples,Latency (ms),Evaluation Split
+Random Forest,Classical ML (Tuned),0.998,1.0,0.9877,0.9938,0.9998,820,0,2,160,982,0.007,Spatial Block Held-Out (Zero Leakage)
+XGBoost,Classical ML (Tuned),0.998,1.0,0.9877,0.9938,0.9999,820,0,2,160,982,0.005,Spatial Block Held-Out (Zero Leakage)
+PennyLane VQC (4 Qubits),Quantum ML (Variational Circuit),0.8961,0.623,0.9383,0.7488,0.9729,728,92,10,152,982,1.42,Spatial Block Held-Out (Zero Leakage)
+PennyLane QNN (4 Qubits),Quantum Neural Network,0.9012,0.6484,0.8765,0.7454,0.955,743,77,20,142,982,1.38,Spatial Block Held-Out (Zero Leakage)

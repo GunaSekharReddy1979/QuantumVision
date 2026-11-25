@@ -1,0 +1,15 @@
+QuantumVision — Quantum Neural Network (QNN) Circuit
+Wires: 4, Layers: 2, Gates: AngleEmbedding(Z), AngleEmbedding(X), RY, RZ, CNOT, expval(Z0..3)
+============================================================================
+0: ─╭AngleEmbedding(M0)─╭AngleEmbedding(M0)──RY(-1.79)──RZ(-0.56)─╭●───────╭X──RY(1.76)─ ···
+1: ─├AngleEmbedding(M0)─├AngleEmbedding(M0)──RY(1.39)───RZ(-1.27)─╰X─╭●────│───RY(-1.65) ···
+2: ─├AngleEmbedding(M0)─├AngleEmbedding(M0)──RY(-1.78)──RZ(-0.32)────╰X─╭●─│───RY(-1.54) ···
+3: ─╰AngleEmbedding(M0)─╰AngleEmbedding(M0)──RY(-1.85)──RZ(1.30)────────╰X─╰●──RY(-0.55) ···
+
+0: ··· ──RZ(0.04)──╭●───────╭X─┤  <Z>
+1: ··· ──RZ(0.09)──╰X─╭●────│──┤  <Z>
+2: ··· ──RZ(-0.06)────╰X─╭●─│──┤  <Z>
+3: ··· ──RZ(-0.06)───────╰X─╰●─┤  <Z>
+
+M0 = 
+[0.45 0.62 0.28 0.75]

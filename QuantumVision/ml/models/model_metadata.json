@@ -1,0 +1,53 @@
+{
+  "dataset_version": "v2.0-5000-samples-expanded",
+  "total_samples": 5000,
+  "split_strategy": "Spatial Block Grouped Split (5.5 km blocks, random_state=42)",
+  "train_sample_count": 4018,
+  "test_sample_count": 982,
+  "feature_names": [
+    "sar_vv_db",
+    "sar_vh_db",
+    "sar_vv_vh_ratio",
+    "sar_temporal_diff_db",
+    "elevation_m",
+    "slope_deg",
+    "distance_to_waterway_km",
+    "rainfall_accum_24h_mm",
+    "rainfall_intensity_mm_hr"
+  ],
+  "quantum_feature_names": [
+    "sar_vv_db",
+    "sar_temporal_diff_db",
+    "elevation_m",
+    "rainfall_accum_24h_mm"
+  ],
+  "random_seed": 42,
+  "training_date": "2026-11-05T15:15:08.131958+00:00",
+  "model_version": "v2.0-four-models-retrained",
+  "leakage_audit": {
+    "dataset_sample_count": 5000,
+    "total_unique_locations": 4994,
+    "duplicate_coordinate_records": 12,
+    "duplicate_coordinate_pairs": 6,
+    "spatial_cross_split_leakage_locations": 0,
+    "spatial_leakage_note": "No spatial cross-split coordinate overlap detected.",
+    "feature_label_correlations": {
+      "sar_vv_db": 0.0864,
+      "sar_vh_db": 0.0173,
+      "sar_vv_vh_ratio": 0.059,
+      "sar_temporal_diff_db": 0.0442,
+      "elevation_m": -0.5749,
+      "slope_deg": -0.5795,
+      "distance_to_waterway_km": -0.3317,
+      "rainfall_accum_24h_mm": 0.7858,
+      "rainfall_intensity_mm_hr": 0.7858
+    },
+    "perfect_predictors_detected": [],
+    "feature_derivation_leakage": false,
+    "recommendations_for_expansion": [
+      "Use Spatial GroupKFold clustering or Mandal administrative boundary grouping to eliminate spatial autocorrelation.",
+      "Separate temporally staggered observations (e.g. baseline dry-season vs flood peak) by event timestamp rather than random shuffle.",
+      "Remove collinear features such as 24h accumulated rainfall vs hourly intensity if they derive from a single sensor formula."
+    ]
+  }
+}

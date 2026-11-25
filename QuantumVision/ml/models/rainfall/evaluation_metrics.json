@@ -1,0 +1,174 @@
+{
+  "trained_at": "2026-10-25T15:20:30Z",
+  "training_duration_seconds": 16.5,
+  "chronological_splits": {
+    "train_period": "2021-01-01 to 2023-12-31",
+    "train_samples": 70080,
+    "test_period": "2024-01-01 to 2025-12-31",
+    "test_samples": 70080,
+    "heavy_rain_events_tested": 4619,
+    "test_samples_subsampled": 70080,
+    "test_samples_full": 140160,
+    "train_samples_subsampled": 70080,
+    "train_samples_full": 210240
+  },
+  "models": {
+    "baseline_persistence": {
+      "model_name": "Persistence Baseline (Previous 24h)",
+      "mae_mm": 4.803,
+      "rmse_mm": 10.806,
+      "r2_score": -0.1486,
+      "heavy_rain_mae_mm": 22.796
+    },
+    "random_forest": {
+      "model_name": "Random Forest Regressor",
+      "mae_mm": 4.192,
+      "rmse_mm": 8.71,
+      "r2_score": 0.2537,
+      "heavy_rain_mae_mm": 22.769
+    },
+    "xgboost": {
+      "model_name": "XGBoost Regressor",
+      "mae_mm": 4.115,
+      "rmse_mm": 8.552,
+      "r2_score": 0.2806,
+      "heavy_rain_mae_mm": 22.791
+    },
+    "quantum_regression": {
+      "model_name": "Quantum VQC Regressor",
+      "status": "EXPERIMENTAL / NOT_IMPLEMENTED",
+      "mae_mm": "N/A",
+      "rmse_mm": "N/A",
+      "r2_score": "N/A",
+      "note": "Quantum VQC in the repository is a 4-qubit binary classification circuit for spatial flood-risk demarcation. Continuous quantum rainfall forecasting is not implemented in this version. No artificial metrics are fabricated."
+    }
+  },
+  "best_model": "xgboost",
+  "top_feature_importance": [
+    {
+      "feature": "rolling_sum_12h",
+      "importance": 0.2436
+    },
+    {
+      "feature": "rolling_sum_24h",
+      "importance": 0.1775
+    },
+    {
+      "feature": "max_intensity_past_24h",
+      "importance": 0.0646
+    },
+    {
+      "feature": "rolling_sum_6h",
+      "importance": 0.0631
+    },
+    {
+      "feature": "rolling_sum_3h",
+      "importance": 0.059
+    },
+    {
+      "feature": "lag_1h",
+      "importance": 0.0452
+    },
+    {
+      "feature": "day_of_year_cos",
+      "importance": 0.0335
+    },
+    {
+      "feature": "day_of_year_sin",
+      "importance": 0.0331
+    }
+  ],
+  "evaluation_limitation_note": "Models evaluated on chronological test split (2024-2025) using reanalysis atmospheric records. Operational performance depends on Open-Meteo numerical weather prediction accuracy.",
+  "dataset_version": "Srikakulam Multi-Point Hourly Atmospheric Reanalysis (Open-Meteo ERA5/NWP) 2021-2025",
+  "target_definition": "Accumulated precipitation over the next 24 hours (t+1 through t+24) in millimeters (mm)",
+  "rainfall_units": "mm",
+  "full_test_metrics": {
+    "baseline_persistence": {
+      "mae_mm": 4.807,
+      "rmse_mm": 10.824,
+      "r2_score": -0.1514
+    },
+    "random_forest": {
+      "mae_mm": 4.193,
+      "rmse_mm": 8.72,
+      "r2_score": 0.2528
+    },
+    "xgboost": {
+      "mae_mm": 4.12,
+      "rmse_mm": 8.57,
+      "r2_score": 0.2782
+    }
+  },
+  "actual_vs_predicted": [
+    {
+      "date": "Jul 15",
+      "actual": 13.9,
+      "predicted": 13.3
+    },
+    {
+      "date": "Jul 16",
+      "actual": 1.8,
+      "predicted": 10.6
+    },
+    {
+      "date": "Jul 17",
+      "actual": 11.4,
+      "predicted": 8.7
+    },
+    {
+      "date": "Jul 18",
+      "actual": 53.0,
+      "predicted": 15.8
+    },
+    {
+      "date": "Jul 19",
+      "actual": 77.5,
+      "predicted": 18.9
+    },
+    {
+      "date": "Jul 20",
+      "actual": 8.7,
+      "predicted": 21.0
+    },
+    {
+      "date": "Jul 21",
+      "actual": 11.5,
+      "predicted": 7.6
+    },
+    {
+      "date": "Jul 22",
+      "actual": 6.3,
+      "predicted": 14.1
+    },
+    {
+      "date": "Jul 23",
+      "actual": 17.4,
+      "predicted": 10.5
+    },
+    {
+      "date": "Jul 24",
+      "actual": 15.6,
+      "predicted": 17.5
+    },
+    {
+      "date": "Jul 25",
+      "actual": 10.7,
+      "predicted": 4.7
+    },
+    {
+      "date": "Jul 26",
+      "actual": 16.3,
+      "predicted": 12.5
+    },
+    {
+      "date": "Jul 27",
+      "actual": 4.4,
+      "predicted": 7.3
+    },
+    {
+      "date": "Jul 28",
+      "actual": 1.1,
+      "predicted": 3.6
+    }
+  ]
+}
